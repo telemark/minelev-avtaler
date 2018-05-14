@@ -1,0 +1,73 @@
+{
+  "name": "minelev-avtaler",
+  "version": "1.0.0",
+  "description": "web frontend for MinElev",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.1.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "deploy": "npm test && now && now alias",
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "Louie",
+    "Telemark fylkeskommune",
+    "tfk",
+    "Digitalisering",
+    "MinElev",
+    "Avtaler"
+  ],
+  "standard": {
+    "ignore": [
+      "public"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/minelev-avtaler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/minelev-avtaler/issues"
+  },
+  "homepage": "https://github.com/telemark/minelev-avtaler#readme",
+  "now": {
+    "alias": [
+      "avtaler.minelev.no"
+    ],
+    "type": "npm",
+    "engines": {
+      "node": "10.1.0"
+    },
+    "dotenv": "production.env"
+  },
+  "devDependencies": {
+    "ava": "0.25.0",
+    "coveralls": "3.0.1",
+    "nsp": "3.2.1",
+    "nyc": "11.7.3",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "dotenv": "5.0.1",
+    "hapi": "17.4.0",
+    "hapi-auth-cookie": "8.1.0",
+    "hapi-auth-jwt2": "8.1.0",
+    "jsonwebtoken": "8.2.1"
+  }
+}
