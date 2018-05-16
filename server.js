@@ -13,6 +13,28 @@ server.route(routes)
 // Start the server
 async function start () {
   try {
+    await server.register(require('inert'))
+    await server.register(require('vision'))
+    server.route({
+      method: 'GET',
+      path: '/public/{param*}',
+      handler: {
+        directory: {
+          path: 'public'
+        }
+      }
+    })
+    server.views({
+      engines: {
+        html: require('handlebars')
+      },
+      relativeTo: __dirname,
+      path: 'templates',
+      layout: true,
+      layoutPath: 'templates/layouts',
+      helpersPath: 'templates/helpers',
+      partialsPath: 'templates/partials'
+    })
     await server.start()
   } catch (error) {
     console.error(error)

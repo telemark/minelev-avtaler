@@ -1,0 +1,25 @@
+{{#each report}}
+    <h1>{{stripSchoolId id}}</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Navn</th>
+            <th>Periode</th>
+            <th>Angående</th>
+            <th>Sendt av</th>
+            <th>Dato</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each students}}
+        <tr>
+            <td>{{studentName}}</td>
+            <td>{{period}}</td>
+            <td><strong>{{stripSchoolId category}}</strong><br/>{{{newlineToBr description}}}</td>
+            <td>{{userName}}</td>
+            <td>{{formatDate date}}</td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+{{/each}}

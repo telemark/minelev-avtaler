@@ -1,0 +1,26 @@
+<h1>{{stripSchoolId classId}}</h1>
+{{#each students}}
+    <h2>{{name}}</h2>
+    <div id="komeptansebevis-{{userId}}">
+      <p>
+        {{header}}<br/>
+        Årstimer: {{hours}}<br />
+        Utdanningsprogram: {{utdanningsprogram}}
+      </p>
+      <p>Kompetansemålene bygger på:</p>
+      {{#each data}}
+        <h3>Programområde: {{name}}</h3>
+        <p>Kompetansemål for opplæringen:</p>
+        <ul>
+          {{#each maal}}
+            <li> {{name}}</li>
+          {{/each}}
+        </ul>
+      {{/each}}
+    </div>
+    <button class="button primary copy-button" data-clipboard-target="#komeptansebevis-{{userId}}">Trykk for å kopiere kompetansebevis for {{name}}</button>
+    <hr>
+{{/each}}
+<!-- Helperscript for copy -->
+<script src="/public/js/clipboard.min.js"></script>
+<script src="/public/js/copybutton.js"></script>

@@ -1,0 +1,28 @@
+<div class="{{showMe mySchools}}">
+    <table>
+        <thead>
+        <tr>
+            <th>Skole</th>
+            <th>Vis klasser</th>
+            <th>Skolerapport varsler</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each mySchools}}
+        <tr>
+            <td>{{name}}</td>
+            <td>
+                <a href="/classes/{{id}}" title="Vis klasser fra {{name}}">
+                    <i class="material-icons">list</i>
+                </a>
+            </td>
+            <td>
+                <a href="/reports/warnings/{{id}}" title="Vis alle varsler fra {{name}}">
+                    <i class="material-icons">report</i>
+                </a>
+            </td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>

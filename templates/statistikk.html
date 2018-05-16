@@ -1,0 +1,17 @@
+<h1>Statistikk</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Beskrivelse</th>
+        <th>Antall</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each stats}}
+    <tr>
+        <td>{{name}}</td>
+        <td>{{count}}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>

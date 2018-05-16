@@ -1,0 +1,56 @@
+<!doctype html>
+<html class="no-js" lang="no" dir="ltr">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+<meta name="description" content="MinElev - Avtaler">
+<meta name="author" content="">
+<title>{{systemName}}</title>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Foundation -->
+<link rel="stylesheet" href="/public/css/foundation.css">
+<link rel="stylesheet" href="/public/css/app.css">
+<!-- End Foundation -->
+<!-- Icons -->
+<link rel="icon" sizes="192x192" href="/public/images/icons/chrome-touch-icon-192x192.png">
+<link rel="apple-touch-icon" href="/public/images/icons/apple-touch-icon-precomposed.png">
+<link rel="shortcut icon" href="/public/images/icons/favicon.ico">
+</head>
+<body>
+    <div class="logo">
+        <a href="/" class="logo-link"><img src="/public/images/logo/telemark.fylkeskommune.svg" /></a>
+    </div>
+    <div class="title-bar" data-responsive-toggle="top-menu" data-hide-for="medium">
+        <button class="menu-icon dark" type="button" data-toggle></button>
+        <div class="title-bar-title">Meny</div>
+    </div>
+
+    <div class="top-bar" id="top-menu">
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">{{credentials.data.userName}}</li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                <li><a href="/" title="Til forsiden"><span class="material-icons">home</span></a></li>
+                <li><a href="/stats" title="Til statistikksiden"><span class="material-icons">poll</span></a></li>
+                <li><a href="/help" title="Til hjelpesiden"><span class="material-icons">help_outline</span></a></li>
+                <li><a href="/signout" title="Logg ut av {{systemName}}"><span class="material-icons">power_settings_new</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="grid-container fluid">
+        {{{content}}}
+    </main>
+
+    <!-- Foundation-->
+    <script src="/public/js/vendor/jquery.js"></script>
+    <script src="/public/js/vendor/what-input.js"></script>
+    <script src="/public/js/vendor/foundation.min.js"></script>
+    <script src="/public/js/app.js"></script>
+    <!-- End Foundation -->
+</body>
+</html>

@@ -1,0 +1,86 @@
+.no-js .top-bar {
+    display: none;
+}
+
+@media screen and (min-width: 40em) {
+    .no-js .top-bar {
+        display: block;
+    }
+
+    .no-js .title-bar {
+        display: none;
+    }
+}
+
+html, body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Gill Sans", "Arial", sans-serif;
+}
+
+a {
+    color: #007f7a
+}
+
+a:hover, a:visited {
+    color: #007c97
+}
+
+a.logo-link {
+    text-decoration: none;
+}
+
+hr {
+    max-width: 100% !important;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #ffd520;
+}
+
+.menu > li > a {
+    color: black;
+}
+
+.menu > li > a:hover {
+    color: #007f7a;
+}
+
+.button.primary {
+    background-color: #cceff4;
+    color: black;
+}
+
+.button.secondary {
+    background-color: #ededed;
+    color: black;
+}
+
+.button.alert {
+    background-color: #e30438;
+    color: white;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.title-bar {
+    background-color: #ffd520;
+    color: black;
+}
+
+a > i.material-icons {
+    color: black;
+}
+
+a:hover > i.material-icons  {
+    color: #007f7a;
+}
+
+.hide-me {
+    display: none !important;
+    visibility: hidden !important;
+}
