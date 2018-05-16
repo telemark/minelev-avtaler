@@ -1,7 +1,6 @@
 const Hapi = require('hapi')
 const routes = require('./routes')
 const authRoutes = require('./routes/auth')
-const validate = require('./lib/validate-jwt')
 const config = require('./config')
 
 // Create a server with a host and port
@@ -28,7 +27,7 @@ const plugins = [
   {plugin: require('hapi-auth-cookie')},
   {plugin: require('vision')},
   {plugin: require('inert')},
-  {plug: require('yar'), options: yarOptions}
+  {plugin: require('yar'), options: yarOptions}
 ]
 
 // Start the server
@@ -60,7 +59,6 @@ async function start () {
     server.auth.strategy('session', 'cookie', {
       password: config.COOKIE_SECRET,
       cookie: 'minelev-avtaler-session',
-      validateFunc: validate,
       redirectTo: `${config.AUTH_SERVICE_URL}/login?origin=${config.ORIGIN_URL}`,
       appendNext: 'nextPath',
       isSecure: process.env.NODE_ENV !== 'development',

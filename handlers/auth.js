@@ -21,25 +21,25 @@ module.exports.doSignIn = async (request, h) => {
       request.cookieAuth.set({data: user, token: token})
 
       if (nextPath && nextPath.length > 0) {
-        h.redirect(nextPath)
+        return h.redirect(nextPath)
       } else {
-        h.redirect('/')
+        return h.redirect('/')
       }
     } catch (error) {
       logger('error', ['auth', 'doSignIn', 'error', error])
-      h(error)
+      return h(error)
     }
   } else {
     logger('error', ['auth', 'doSignIn', 'invalid token'])
-    h(new Error('Invalid token'))
+    return h(new Error('Invalid token'))
   }
 }
 
 module.exports.doSignOut = (request, h) => {
   request.cookieAuth.clear()
   if (config.LOGOUT_URL) {
-    h.redirect(`${config.LOGOUT_URL}`)
+    return h.redirect(`${config.LOGOUT_URL}`)
   } else {
-    h.redirect(`${config.AUTH_SERVICE_URL}/logout`)
+    return h.redirect(`${config.AUTH_SERVICE_URL}/logout`)
   }
 }
