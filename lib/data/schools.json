@@ -2,56 +2,1566 @@
   {
     "id": "BAMVS",
     "name": "Bamble videregående skole",
-    "accessGroup": "TFK-TG-MinElev-BAMVS"
+    "accessGroup": "TFK-TG-MinElev-BAMVS",
+    "basicGroups": [
+      {
+        "id": "AMO 1HOA",
+        "name": "Vg1 Helse og oppvekstfag Oppdrag NAV"
+      },
+      {
+        "id": "AMO 2HEA",
+        "name": "Vg2 Helsearbeiderfag  Oppdrag NAV"
+      },
+      {
+        "id": "HR 1HOA",
+        "name": "Vg1 Helse og oppvekst.Helserekrutter NAV"
+      },
+      {
+        "id": "TIV 1HOA",
+        "name": "Talenter i vekslingsmodell oppl. bedrift"
+      },
+      {
+        "id": "TIV 1TIA",
+        "name": "Talenter i vekslingsmodell oppl. bedrift"
+      },
+      {
+        "id": "VO 1HOA",
+        "name": "Vg1 Helse og oppvekstfag Voksenopplæring"
+      },
+      {
+        "id": "VO 1HOB",
+        "name": "Vg1 Helse og oppvekstfag Voksenopplæring"
+      },
+      {
+        "id": "VO 1HOC",
+        "name": "Vg1 Helse og oppvekstfag Voksenopplæring"
+      },
+      {
+        "id": "VO 2HEA",
+        "name": "Vg2 Helsearbeiderfag  Voksenopplæring"
+      },
+      {
+        "id": "VO 2HEB",
+        "name": "Vg2 Helsearbeiderfag Voksenopplæring"
+      },
+      {
+        "id": "1ALA",
+        "name": "Studiespes. med arbeidstrening-liten gr"
+      },
+      {
+        "id": "1ALB",
+        "name": "Studiespes. med arbeidstrening-liten gr"
+      },
+      {
+        "id": "1ALC",
+        "name": "Studiespes. med arbeidstrening-liten gr"
+      },
+      {
+        "id": "1ALD",
+        "name": "Studiespes. med arbeidtrening- liten gr"
+      },
+      {
+        "id": "1ALE",
+        "name": "Studiespes. med arbeidstrening-liten gr"
+      },
+      {
+        "id": "1ELA",
+        "name": "Vg1 Elektrofag"
+      },
+      {
+        "id": "1HOA",
+        "name": "Vg1 Helse og oppvekstfag"
+      },
+      {
+        "id": "1HOB",
+        "name": "Vg1 Helse og oppvekstfag"
+      },
+      {
+        "id": "1HOC",
+        "name": "Vg1 Helse og oppvekstfag"
+      },
+      {
+        "id": "1RMA",
+        "name": "Vg1 Restaurant og matfag"
+      },
+      {
+        "id": "1SSA",
+        "name": "Service- og samferdsel"
+      },
+      {
+        "id": "1SSB",
+        "name": "Service- og samferdsel"
+      },
+      {
+        "id": "1STA",
+        "name": "Studiespesialisering VG1"
+      },
+      {
+        "id": "1STB",
+        "name": "Studiespesialisering VG1"
+      },
+      {
+        "id": "1TIA",
+        "name": "Vg1 Teknikk og ind. produksjon"
+      },
+      {
+        "id": "1TIB",
+        "name": "Vg1 Teknikk og ind. produksjon"
+      },
+      {
+        "id": "2ELA",
+        "name": "Vg2 Elenergi"
+      },
+      {
+        "id": "2HEA",
+        "name": "Vg2 Helsearbeiderfag"
+      },
+      {
+        "id": "2INA",
+        "name": "Vg2 Industriteknologi"
+      },
+      {
+        "id": "2INB",
+        "name": "Vg2 Industriteknologi"
+      },
+      {
+        "id": "2ISA",
+        "name": "VG2 IKT servicefag"
+      },
+      {
+        "id": "2KOA",
+        "name": "Vg2 Kokk- og servitørfag"
+      },
+      {
+        "id": "2SSA",
+        "name": "Salg, service- og sikkerhet"
+      },
+      {
+        "id": "2STA",
+        "name": "Studiespesialisering VG2"
+      },
+      {
+        "id": "2STB",
+        "name": "Studiespesialisering VG2"
+      },
+      {
+        "id": "3HUA",
+        "name": "Vg3 Hudpleier"
+      },
+      {
+        "id": "3LÆR",
+        "name": "Vg3 Fagopplæring i skole"
+      },
+      {
+        "id": "3PBA",
+        "name": "Påbygging til GSK"
+      },
+      {
+        "id": "3STA",
+        "name": "Studiespesialisering Vg3"
+      },
+      {
+        "id": "3STB",
+        "name": "Studiespesialisering Vg3"
+      },
+      {
+        "id": "4PBA",
+        "name": "Påbygg til GSK 4"
+      }
+    ]
   },
   {
     "id": "BOEVS",
     "name": "Bø vidaregåande skule",
-    "accessGroup": "TFK-TG-MinElev-BOEVS"
+    "accessGroup": "TFK-TG-MinElev-BOEVS",
+    "basicGroups": [
+      {
+        "id": "1DEL",
+        "name": "Delkurs"
+      },
+      {
+        "id": "1IDA",
+        "name": "Vg1 idrettsfag"
+      },
+      {
+        "id": "1IDB",
+        "name": "Vg1 idrettsfag"
+      },
+      {
+        "id": "1IDC",
+        "name": "Vg1 idrettsfag"
+      },
+      {
+        "id": "1STA",
+        "name": "Vg1 studiespesialisering"
+      },
+      {
+        "id": "1STB",
+        "name": "Vg1 studiespesialisering"
+      },
+      {
+        "id": "1STC",
+        "name": "Vg1 studiespesialisering"
+      },
+      {
+        "id": "2IDA",
+        "name": "Vg2 idrettsfag"
+      },
+      {
+        "id": "2IDB",
+        "name": "Vg2 idrettsfag"
+      },
+      {
+        "id": "2STA",
+        "name": "Vg2 studiespesialisering"
+      },
+      {
+        "id": "2STB",
+        "name": "Vg2 studiespesialisering"
+      },
+      {
+        "id": "2STC",
+        "name": "Vg2 studiespesialisering"
+      },
+      {
+        "id": "3IDA",
+        "name": "Vg3 idrettsfag"
+      },
+      {
+        "id": "3IDB",
+        "name": "Vg3 idrettsfag"
+      },
+      {
+        "id": "3STA",
+        "name": "Vg3 studiespesialisering"
+      },
+      {
+        "id": "3STB",
+        "name": "Vg3 studiespesialisering"
+      },
+      {
+        "id": "3STC",
+        "name": "Vg3 studiespesialisering"
+      }
+    ]
   },
   {
     "id": "DALVS",
     "name": "Vest-Telemark vidaregåande skule",
-    "accessGroup": "TFK-TG-MinElev-DALVS"
+    "accessGroup": "TFK-TG-MinElev-DALVS",
+    "basicGroups": [
+      {
+        "id": "1ELEA",
+        "name": "Elektrofag"
+      },
+      {
+        "id": "1HOFA",
+        "name": "Helse- og oppvekstfag"
+      },
+      {
+        "id": "1MKA",
+        "name": "Vg1 medier og kommunikasjon"
+      },
+      {
+        "id": "1OMIGA",
+        "name": "ST Spes.u liten gr A, 1 år"
+      },
+      {
+        "id": "1RMA",
+        "name": "Vg1 restaurant og matfag"
+      },
+      {
+        "id": "1RMB",
+        "name": "Restaurant-og matfag, lita gruppe"
+      },
+      {
+        "id": "1STAA",
+        "name": "Studiespesialisering vg1"
+      },
+      {
+        "id": "1TIPA",
+        "name": "Teknikk og industriell produksjon vg1"
+      },
+      {
+        "id": "1TIPB",
+        "name": "Teknikk og industriell produksjon vg1"
+      },
+      {
+        "id": "2AMKA",
+        "name": "Arbeidsmaskinar vg2"
+      },
+      {
+        "id": "2BAUA",
+        "name": "Barne- og ungdomsarbeiderfag vg2"
+      },
+      {
+        "id": "2ELEA",
+        "name": "Elenergi vg2"
+      },
+      {
+        "id": "2HEAA",
+        "name": "Helsearbeiderfag vg2"
+      },
+      {
+        "id": "2HEAB",
+        "name": "Helsearbeiderfag vg2"
+      },
+      {
+        "id": "2KJØA",
+        "name": "Køyrety vg2"
+      },
+      {
+        "id": "2KSA",
+        "name": "Vg2 kokk og servitør"
+      },
+      {
+        "id": "2MKA",
+        "name": "Vg2 medier og kommunikasjon"
+      },
+      {
+        "id": "2REAA",
+        "name": "Realfag vg2"
+      },
+      {
+        "id": "2SSAA",
+        "name": "Språk, samfunnsfag og økonomi"
+      },
+      {
+        "id": "2TEKA",
+        "name": "Teknologiske fag vg2"
+      },
+      {
+        "id": "3MKA",
+        "name": "Vg3 medier og kommunikasjon"
+      },
+      {
+        "id": "3PBA",
+        "name": "Vg3 påbygg til generell studiekompetanse"
+      },
+      {
+        "id": "3REAA",
+        "name": "Realfag"
+      },
+      {
+        "id": "3SSAA",
+        "name": "Språk, samfunnsfag og økonomi"
+      },
+      {
+        "id": "5OMIGA",
+        "name": "Opplæring i mindre grupper"
+      }
+    ]
   },
   {
     "id": "KLOVS",
     "name": "Hjalmar Johansen videregående skole",
-    "accessGroup": "TFK-TG-MinElev-KLOVS"
+    "accessGroup": "TFK-TG-MinElev-KLOVS",
+    "basicGroups": [
+      {
+        "id": "GKATF",
+        "name": "Grunnkompetanse Atferd"
+      },
+      {
+        "id": "GK3",
+        "name": "Grunnkompetanse VG3"
+      },
+      {
+        "id": "STUD-A",
+        "name": "Studiespesialisering"
+      },
+      {
+        "id": "STUD-B",
+        "name": "Studiespesialisering"
+      },
+      {
+        "id": "STUD-C",
+        "name": "Studiespesialisering"
+      },
+      {
+        "id": "STUD-D",
+        "name": "Studiespesialisering"
+      },
+      {
+        "id": "STUD-E",
+        "name": "Studiespesialisering"
+      },
+      {
+        "id": "VG3LÆR",
+        "name": "Opplæring i skole, lærlinger"
+      },
+      {
+        "id": "1IDA",
+        "name": "VG1 Idrett"
+      },
+      {
+        "id": "1IDB",
+        "name": "VG1 Idrett"
+      },
+      {
+        "id": "1IDC",
+        "name": "VG1 Idrett"
+      },
+      {
+        "id": "1MKA",
+        "name": "VG1  Medier og kommunikasjon"
+      },
+      {
+        "id": "1MKB",
+        "name": "VG1  Medier og kommunikasjon"
+      },
+      {
+        "id": "1RMA",
+        "name": "VG1 Restaurant- og matfag"
+      },
+      {
+        "id": "1RMB",
+        "name": "VG1 Restaurant- og matfag"
+      },
+      {
+        "id": "2IDRA",
+        "name": "Vg2 Idrettsfag"
+      },
+      {
+        "id": "2IDRB",
+        "name": "Vg2 Idrettsfag"
+      },
+      {
+        "id": "2IDRC",
+        "name": "Vg2 Idrettsfag"
+      },
+      {
+        "id": "2KOSA",
+        "name": "Vg2 Kokk- og servitørfag"
+      },
+      {
+        "id": "2MEDA",
+        "name": "Vg2 Medier og kommunikasjon"
+      },
+      {
+        "id": "2MEDB",
+        "name": "Vg2 Medier og kommunikasjon"
+      },
+      {
+        "id": "3IDRA",
+        "name": "Vg3 idrettsfag"
+      },
+      {
+        "id": "3IDRB",
+        "name": "Vg3 idrettsfag"
+      },
+      {
+        "id": "3MEDA",
+        "name": "Vg3 Medier og kommunikasjon"
+      },
+      {
+        "id": "3PBYA",
+        "name": "Påbygging til GSK"
+      },
+      {
+        "id": "3PBYB",
+        "name": "Påbygging til GSK"
+      },
+      {
+        "id": "4PBYA",
+        "name": "Påbygging til GSK"
+      },
+      {
+        "id": "4PBYB",
+        "name": "Påbygging til GSK"
+      }
+    ]
   },
   {
     "id": "KRAVS",
     "name": "Kragerø videregående skole",
-    "accessGroup": "TFK-TG-MinElev-KRAVS"
+    "accessGroup": "TFK-TG-MinElev-KRAVS",
+    "basicGroups": [
+      {
+        "id": "VO-3PBC",
+        "name": "Vg3 Minimumskrav til gen. studiekomp."
+      },
+      {
+        "id": "1BAA",
+        "name": "Vg1 Bygg- og anleggsteknikk Basisgr.A"
+      },
+      {
+        "id": "1HOA",
+        "name": "Vg1 Helse- og oppvektsfag Basisgr.A"
+      },
+      {
+        "id": "1HOB",
+        "name": "Vg1 Helse- og oppvekstfag Basisgr. B"
+      },
+      {
+        "id": "1IDR",
+        "name": "Vg1 Idrettsfag Basisgr.A"
+      },
+      {
+        "id": "1STP",
+        "name": "Vg1 Studiespesialisering Basisgr.A"
+      },
+      {
+        "id": "1STT",
+        "name": "Vg1 Studiespesialisering Basisgr.B"
+      },
+      {
+        "id": "1TIA",
+        "name": "Vg1 Tekn. og ind.prod Basisgr.A"
+      },
+      {
+        "id": "1TIB",
+        "name": "Vg1 Tekn. og ind.prod Basisgr.B"
+      },
+      {
+        "id": "2BUA",
+        "name": "Vg2 Barne- og ungdomsarbeider"
+      },
+      {
+        "id": "2BYG",
+        "name": "Vg2 Byggteknikk"
+      },
+      {
+        "id": "2HEA",
+        "name": "Vg2 Helsearbeiderfag"
+      },
+      {
+        "id": "2IDR",
+        "name": "Vg2 Idrettsfag Basisgruppe A"
+      },
+      {
+        "id": "2PIN",
+        "name": "Vg2 Produksjon og industriteknikk"
+      },
+      {
+        "id": "2REA",
+        "name": "Vg2 Realfag"
+      },
+      {
+        "id": "2SAM",
+        "name": "Vg2 Språk, samfunnsfag og økonomi"
+      },
+      {
+        "id": "2STO1",
+        "name": "2.års STO - Gruppe 1"
+      },
+      {
+        "id": "3IDR",
+        "name": "Vg3 Idrettsfag"
+      },
+      {
+        "id": "3PBA",
+        "name": "Vg3 Pågygging til generell studiekompeta"
+      },
+      {
+        "id": "3PBB",
+        "name": "Vg3 Påbygging til generell studiekompeta"
+      },
+      {
+        "id": "3REA",
+        "name": "Vg3 Realfag"
+      },
+      {
+        "id": "3SAM",
+        "name": "Vg3 Språk, samfunnsfag og økonomi"
+      },
+      {
+        "id": "3STO1",
+        "name": "3.års STO - Gruppe 1"
+      },
+      {
+        "id": "4STO1",
+        "name": "4.års STO - Gruppe 1"
+      }
+    ]
   },
   {
     "id": "NOMVS",
     "name": "Nome videregående skole",
-    "accessGroup": "TFK-TG-MinElev-NOMVS"
+    "accessGroup": "TFK-TG-MinElev-NOMVS",
+    "basicGroups": [
+      {
+        "id": "GRSK",
+        "name": "Grunnskoleelev"
+      },
+      {
+        "id": "VG3KJTB",
+        "name": "Vg3 Bilfaget, lette kjøretøy B"
+      },
+      {
+        "id": "VO2BYA",
+        "name": "VO Byggteknikk NAV"
+      },
+      {
+        "id": "VO2HEA",
+        "name": "VO Helsearbeiderfag NAV"
+      },
+      {
+        "id": "VO2HEB",
+        "name": "VO Helsearbeiderfag"
+      },
+      {
+        "id": "VO3LBA",
+        "name": "Vg3 Landbruk og husdyrhold"
+      },
+      {
+        "id": "1BAA",
+        "name": "Vg1 bygg- og anleggsteknikk A"
+      },
+      {
+        "id": "1BAB",
+        "name": "Vg1 Bygg- og anleggsteknikk B"
+      },
+      {
+        "id": "1BAC",
+        "name": "Vg1 Bygg- og anleggsteknikk C"
+      },
+      {
+        "id": "1DHA",
+        "name": "Vg1 Design og håndverk"
+      },
+      {
+        "id": "1ELA",
+        "name": "Vg1 Elektrofag A"
+      },
+      {
+        "id": "1ELB",
+        "name": "Vg1 Elektrofag B"
+      },
+      {
+        "id": "1HSA",
+        "name": "Vg1 Helse- og oppvekstfag A"
+      },
+      {
+        "id": "1HSB",
+        "name": "Vg1 Helse- og oppvekstfag B"
+      },
+      {
+        "id": "1HSC",
+        "name": "Vg1  HS  liten gruppe  1. år"
+      },
+      {
+        "id": "1NAA",
+        "name": "Vg1 Naturbruk A"
+      },
+      {
+        "id": "1NAB",
+        "name": "Vg1 Naturbruk B"
+      },
+      {
+        "id": "1TIA",
+        "name": "Vg1 Teknikk og ind. produksjon A"
+      },
+      {
+        "id": "1TIB",
+        "name": "Vg1 Teknikk og ind. produksjon B"
+      },
+      {
+        "id": "2AIDA",
+        "name": "Vg2 Anleggsgartner- og idrettsanleggsfag"
+      },
+      {
+        "id": "2ANLA",
+        "name": "Vg2 Anleggsteknikk A"
+      },
+      {
+        "id": "2ANLB",
+        "name": "Vg2 Anleggsteknikk B"
+      },
+      {
+        "id": "2BYGA",
+        "name": "Vg2 Byggteknikk A"
+      },
+      {
+        "id": "2BYGB",
+        "name": "Vg2 Byggteknikk B"
+      },
+      {
+        "id": "2ELEA",
+        "name": "Vg2 Elenergi"
+      },
+      {
+        "id": "2FRIA",
+        "name": "Vg2 Frisør"
+      },
+      {
+        "id": "2HEAA",
+        "name": "Vg2 Helsearbeiderfag"
+      },
+      {
+        "id": "2HHOA",
+        "name": "Vg2 Heste- og hovslagerfag"
+      },
+      {
+        "id": "2LGAA",
+        "name": "Vg2 Landbruk og gartnernæring"
+      },
+      {
+        "id": "2LGAB",
+        "name": "Vg2  LG  liten gruppe 2. år"
+      },
+      {
+        "id": "2PINA",
+        "name": "Vg2 Industriteknologi"
+      },
+      {
+        "id": "2SBRA",
+        "name": "Vg2 Skogbruk"
+      },
+      {
+        "id": "3LBRA",
+        "name": "Vg3 Landbruk"
+      },
+      {
+        "id": "3NABA",
+        "name": "Vg3 Studieforberedende naturbruk"
+      },
+      {
+        "id": "3PBYA",
+        "name": "Vg3 Påbygg til gen.studiekomp."
+      }
+    ]
   },
   {
     "id": "NOTVS",
     "name": "Notodden videregående skole",
-    "accessGroup": "TFK-TG-MinElev-NOTVS"
+    "accessGroup": "TFK-TG-MinElev-NOTVS",
+    "basicGroups": [
+      {
+        "id": "RESNETTSKOL",
+        "name": "Nettskolen"
+      },
+      {
+        "id": "1ELA",
+        "name": "Elektrofag VG1"
+      },
+      {
+        "id": "1HOA",
+        "name": "VG1 Helse- og oppvekstfag"
+      },
+      {
+        "id": "1HOB",
+        "name": "Helse og oppvekst"
+      },
+      {
+        "id": "1HOC",
+        "name": "VG1 helse og oppvekst"
+      },
+      {
+        "id": "1SSA",
+        "name": "Service og samferdsel Vg1"
+      },
+      {
+        "id": "1STA",
+        "name": "Studiespesialisering Vg1"
+      },
+      {
+        "id": "1STAR",
+        "name": "Studiespes. m/arbeidstrening"
+      },
+      {
+        "id": "1STB",
+        "name": "Studiespesialisering Vg1"
+      },
+      {
+        "id": "1STC",
+        "name": "Studiespesialisering Vg1"
+      },
+      {
+        "id": "1TPA",
+        "name": "Teknikk og industriell produksjon Vg1"
+      },
+      {
+        "id": "1TPB",
+        "name": "Teknikk og industriell produksjon Vg1"
+      },
+      {
+        "id": "2AUT",
+        "name": "Automatisering"
+      },
+      {
+        "id": "2BUA",
+        "name": "Barne- og ungdomsarbeider"
+      },
+      {
+        "id": "2HEA",
+        "name": "Helsearbeider"
+      },
+      {
+        "id": "2HEB",
+        "name": "Helsearbeiderfag"
+      },
+      {
+        "id": "2INT",
+        "name": "Industriteknologi"
+      },
+      {
+        "id": "2KJØ",
+        "name": "Kjøretøy"
+      },
+      {
+        "id": "2SSS",
+        "name": "Salg- service og sikkerhet"
+      },
+      {
+        "id": "2STA",
+        "name": "Studiespesialisering Vg2"
+      },
+      {
+        "id": "2STB",
+        "name": "Studiespesialisering Vg2"
+      },
+      {
+        "id": "2STC",
+        "name": "Studiespesialisering Vg2"
+      },
+      {
+        "id": "2TRL",
+        "name": "Transportfag"
+      },
+      {
+        "id": "3HOS",
+        "name": "Helse og oppvekst m SK"
+      },
+      {
+        "id": "3PB",
+        "name": "Påbygging generell studiekompetanse"
+      },
+      {
+        "id": "3STA",
+        "name": "Studiespesialisering Vg3"
+      },
+      {
+        "id": "3STB",
+        "name": "Studiespesialisering Vg3"
+      },
+      {
+        "id": "3STC",
+        "name": "Studiespesialisering Vg3"
+      },
+      {
+        "id": "3STD",
+        "name": "Delkurselever"
+      },
+      {
+        "id": "3YSA",
+        "name": "Yrkessjåfør"
+      },
+      {
+        "id": "3YSB",
+        "name": "Yrkessjåfør"
+      },
+      {
+        "id": "3YSC",
+        "name": "Yrkessjåfør våren 2018"
+      },
+      {
+        "id": "3YSD",
+        "name": "Yrkessjåfør våren 2018"
+      },
+      {
+        "id": "4PB",
+        "name": "Påbygging til gen. studiekomp- fagbrev"
+      }
+    ]
   },
   {
     "id": "RJUVS",
     "name": "Rjukan videregående skole",
-    "accessGroup": "TFK-TG-MinElev-RJUVS"
+    "accessGroup": "TFK-TG-MinElev-RJUVS",
+    "basicGroups": [
+      {
+        "id": "1AO",
+        "name": "1AO alternativ opplæring"
+      },
+      {
+        "id": "1BA",
+        "name": "Vg1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1EL",
+        "name": "Vg1 elektrofag"
+      },
+      {
+        "id": "1HO",
+        "name": "Vg1 helse- og oppvekstfag"
+      },
+      {
+        "id": "1STA",
+        "name": "Vg1 studiespesialisering"
+      },
+      {
+        "id": "1STNM",
+        "name": "Vg1 natur og miljø"
+      },
+      {
+        "id": "1TP",
+        "name": "Vg1 teknikk og industriell produksjon"
+      },
+      {
+        "id": "2BA",
+        "name": "Vg2 byggteknikk"
+      },
+      {
+        "id": "2EL",
+        "name": "Vg2 elenergi"
+      },
+      {
+        "id": "2HEA",
+        "name": "Vg2 helsearbeiderfag"
+      },
+      {
+        "id": "2STA",
+        "name": "Vg2 studiespesialisering"
+      },
+      {
+        "id": "2STNM",
+        "name": "Vg2 natur og miljø"
+      },
+      {
+        "id": "2TP",
+        "name": "Vg2 industriteknologi"
+      },
+      {
+        "id": "3PB",
+        "name": "Vg3 påbygging til gen. studiekompetanse"
+      },
+      {
+        "id": "3STA",
+        "name": "Vg3 studiespesialisering"
+      },
+      {
+        "id": "3STNM",
+        "name": "Vg3 Natur og miljø"
+      }
+    ]
   },
   {
     "id": "SKIVS",
     "name": "Skien videregående skole",
-    "accessGroup": "TFK-TG-MinElev-SKIVS"
+    "accessGroup": "TFK-TG-MinElev-SKIVS",
+    "basicGroups": [
+      {
+        "id": "VOE",
+        "name": "Voksenopplæring dagtid"
+      },
+      {
+        "id": "VOK",
+        "name": "Voksenopplæring kveldstid"
+      },
+      {
+        "id": "1MDA",
+        "name": "VG1-MUS"
+      },
+      {
+        "id": "1MDB",
+        "name": "VG1-DD"
+      },
+      {
+        "id": "1SAA",
+        "name": "VG1 SS"
+      },
+      {
+        "id": "1SAB",
+        "name": "VG1 SS"
+      },
+      {
+        "id": "1SAC",
+        "name": "VG1 SS"
+      },
+      {
+        "id": "1STA",
+        "name": "VG1 STUSP1"
+      },
+      {
+        "id": "1STB",
+        "name": "VG1 STUSP1 Forskerlinja"
+      },
+      {
+        "id": "1STC",
+        "name": "VG1 STUSP1"
+      },
+      {
+        "id": "1STD",
+        "name": "VG1 STUSP1"
+      },
+      {
+        "id": "1STE",
+        "name": "VG1 STUSP1 Spansk 2"
+      },
+      {
+        "id": "1STF",
+        "name": "VG1 STUSP1"
+      },
+      {
+        "id": "1STG",
+        "name": "VG1 STUSP1 Tysk 2"
+      },
+      {
+        "id": "1STH",
+        "name": "VG1 STUSP1 Tysk 1"
+      },
+      {
+        "id": "1STU",
+        "name": "Elever fra ungdomsskolen i matematikk"
+      },
+      {
+        "id": "2MDA",
+        "name": "VG2 MUS"
+      },
+      {
+        "id": "2MDB",
+        "name": "VG2 DD"
+      },
+      {
+        "id": "2SAA",
+        "name": "VG2SSS"
+      },
+      {
+        "id": "2SAB",
+        "name": "VG2SSS"
+      },
+      {
+        "id": "2SAC",
+        "name": "VG2IKT"
+      },
+      {
+        "id": "2SAD",
+        "name": "VG2RLV"
+      },
+      {
+        "id": "2SAE",
+        "name": "VG2TRL"
+      },
+      {
+        "id": "2STA",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STB",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STC",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STD",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STE",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STF",
+        "name": "VG2ST"
+      },
+      {
+        "id": "2STG",
+        "name": "VG2ST"
+      },
+      {
+        "id": "3AFI",
+        "name": "Delkurselever"
+      },
+      {
+        "id": "3MDA",
+        "name": "VG3MUS"
+      },
+      {
+        "id": "3MDB",
+        "name": "VG3DD"
+      },
+      {
+        "id": "3SAA",
+        "name": "VG3 Service og samferdsel påbygging"
+      },
+      {
+        "id": "3STA",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STB",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STC",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STD",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STE",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STF",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STG",
+        "name": "VG3ST"
+      },
+      {
+        "id": "3STH",
+        "name": "VG3ST"
+      }
+    ]
   },
   {
     "id": "SKOVS",
     "name": "Skogmo videregående skole",
-    "accessGroup": "TFK-TG-MinElev-SKOVS"
+    "accessGroup": "TFK-TG-MinElev-SKOVS",
+    "basicGroups": [
+      {
+        "id": "Eksamenstest",
+        "name": "Testgruppe"
+      },
+      {
+        "id": "VO1BA",
+        "name": "bygg og anlegg vg1 voksne"
+      },
+      {
+        "id": "VO1BY",
+        "name": "Bygg og anleggsteknikk for voksne"
+      },
+      {
+        "id": "VO2BY",
+        "name": "Vg2 Bygg og anleggsteknikk for voksne"
+      },
+      {
+        "id": "VO3HES",
+        "name": "Helsesekretærer for voksne"
+      },
+      {
+        "id": "1BAA",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAB",
+        "name": "VG1  bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAC",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAD",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAE",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAF",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1BAG",
+        "name": "VG1 bygg- og anleggsteknikk"
+      },
+      {
+        "id": "1ELA",
+        "name": "VG1 elektrofag"
+      },
+      {
+        "id": "1ELB",
+        "name": "VG1 elektrofag"
+      },
+      {
+        "id": "1ELC",
+        "name": "VG1 elektrofag"
+      },
+      {
+        "id": "1ELD",
+        "name": "VG1 elektrofag"
+      },
+      {
+        "id": "1HAA",
+        "name": "Helse/oppvekst SK 3 år"
+      },
+      {
+        "id": "1HAB",
+        "name": "Helse/oppvekst SK 3 år"
+      },
+      {
+        "id": "1HAC",
+        "name": "Helse/oppvekst SK 3 år"
+      },
+      {
+        "id": "1HOA",
+        "name": "Helse -og oppvekstfag"
+      },
+      {
+        "id": "1HOB",
+        "name": "Helse -og oppvekstfag"
+      },
+      {
+        "id": "1HOC",
+        "name": "Helse -og oppvekstfag"
+      },
+      {
+        "id": "1HOD",
+        "name": "Helse -og oppvekstfag"
+      },
+      {
+        "id": "1HOE",
+        "name": "Helse -og oppvekstfag"
+      },
+      {
+        "id": "1HOF",
+        "name": "Helse- og oppvekstfag"
+      },
+      {
+        "id": "1HOG",
+        "name": "Helse- og oppvekstfag"
+      },
+      {
+        "id": "1TIPA",
+        "name": "Teknikk og ind.produksjon"
+      },
+      {
+        "id": "1TIPB",
+        "name": "Teknikk og ind.produksjon"
+      },
+      {
+        "id": "1TIPC",
+        "name": "Teknikk og ind.produksojn"
+      },
+      {
+        "id": "2AMBA",
+        "name": "VG2 ambulansefag"
+      },
+      {
+        "id": "2AUTA",
+        "name": "VG2 automatisering"
+      },
+      {
+        "id": "2BAUA",
+        "name": "Barne- og ungd.arb. SK 3 år"
+      },
+      {
+        "id": "2BLKA",
+        "name": "Bilskade, lakk og karosseri"
+      },
+      {
+        "id": "2BUAA",
+        "name": "VG2 barne- og ungdomsarbeider"
+      },
+      {
+        "id": "2BUAB",
+        "name": "VG2 barne- og ungdomsarbeider"
+      },
+      {
+        "id": "2BUAC",
+        "name": "Vg2 Barne- og ungdomsarbeider"
+      },
+      {
+        "id": "2BYGA",
+        "name": "VG2 byggteknikk"
+      },
+      {
+        "id": "2BYGB",
+        "name": "VG2 byggteknikk"
+      },
+      {
+        "id": "2BYGC",
+        "name": "VG2 byggteknikk"
+      },
+      {
+        "id": "2BYGD",
+        "name": "Vg2 Byggteknikk"
+      },
+      {
+        "id": "2DELA",
+        "name": "VG2 data og elektronikk"
+      },
+      {
+        "id": "2ELEA",
+        "name": "VG2 elenergi"
+      },
+      {
+        "id": "2ELEB",
+        "name": "VG2 elenergi"
+      },
+      {
+        "id": "2HAFA",
+        "name": "VG2 Helsearbeiderfag SK 3-årig"
+      },
+      {
+        "id": "2HAFB",
+        "name": "Helsearbeiderfag SK 3-årig"
+      },
+      {
+        "id": "2HESA",
+        "name": "Helseservicefag"
+      },
+      {
+        "id": "2HESB",
+        "name": "Helseservicefag"
+      },
+      {
+        "id": "2HFAA",
+        "name": "VG2 helsearbeiderfag"
+      },
+      {
+        "id": "2HFAB",
+        "name": "VG2 helsearbeiderfag"
+      },
+      {
+        "id": "2KEMA",
+        "name": "VG2 klima-, energi- og miljøteknikk"
+      },
+      {
+        "id": "2KEMB",
+        "name": "VG2 klima-, energi- og miljøteknikk"
+      },
+      {
+        "id": "2KJTA",
+        "name": "Kjøretøy"
+      },
+      {
+        "id": "2KJTB",
+        "name": "Kjøretøy"
+      },
+      {
+        "id": "2PINA",
+        "name": "Industriteknologi"
+      },
+      {
+        "id": "3AFA",
+        "name": "Vg3 Påbygg gen.stk, SK"
+      },
+      {
+        "id": "3AFB",
+        "name": "Vg3 påbygg gen.stk, SK"
+      },
+      {
+        "id": "3APOA",
+        "name": "Vg3 Apotekteknikk"
+      },
+      {
+        "id": "3AUTA",
+        "name": "Vg3 automatiseringsfaget"
+      },
+      {
+        "id": "3DATA",
+        "name": "VG3 Dataelektroniker"
+      },
+      {
+        "id": "3PRETEL",
+        "name": "Telemontorer"
+      }
+    ]
   },
   {
     "id": "PORVS",
     "name": "Porsgrunn videregående skole",
-    "accessGroup": "TFK-TG-MinElev-PORVS"
+    "accessGroup": "TFK-TG-MinElev-PORVS",
+    "basicGroups": [
+      {
+        "id": "1DHA",
+        "name": "VG1, DESIGN OG HÅNDVERK"
+      },
+      {
+        "id": "1DHB",
+        "name": "VG1, DESIGN OG HÅNDVERK"
+      },
+      {
+        "id": "1IDI",
+        "name": "VG1, STUDIEFORBEREDENDE IDRETT"
+      },
+      {
+        "id": "1IDK",
+        "name": "VG1 Studieforberedende Idrett"
+      },
+      {
+        "id": "1KDA",
+        "name": "VG1,STUDIEFORB. KUNST, DESIGN OG ARKITEK"
+      },
+      {
+        "id": "1MKA",
+        "name": "VG1,STUDIEFORB. MEDIER OG KOMMUNIKASJON"
+      },
+      {
+        "id": "1SAA",
+        "name": "STUDIESPES. M/ARBEIDSTRENING"
+      },
+      {
+        "id": "1SAB",
+        "name": "STUDIESPES. M/ARBEIDSTRENING"
+      },
+      {
+        "id": "1SAC",
+        "name": "STUDIESPES. M/ARBEIDSTRENING"
+      },
+      {
+        "id": "1STA",
+        "name": "VG1, STUDIESPESIALISERING"
+      },
+      {
+        "id": "1STB",
+        "name": "VG1, STUDIESPESIALISERING"
+      },
+      {
+        "id": "1STC",
+        "name": "VG1, STUDIESPESIALISERING"
+      },
+      {
+        "id": "1STD",
+        "name": "VG1, STUDIESPESIALISERING - PRE IB"
+      },
+      {
+        "id": "1STE",
+        "name": "VG1, STUDIESPESIALISERING - PRE IB"
+      },
+      {
+        "id": "1STG",
+        "name": "VG1, STUDIESPESIALISERING"
+      },
+      {
+        "id": "1STJ",
+        "name": "DELKURSELEVER,  VG1"
+      },
+      {
+        "id": "1STU",
+        "name": "FRA 10. KLASSE"
+      },
+      {
+        "id": "1TIA",
+        "name": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON"
+      },
+      {
+        "id": "1TIB",
+        "name": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON"
+      },
+      {
+        "id": "1TIC",
+        "name": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON"
+      },
+      {
+        "id": "2BLA",
+        "name": "VG2, BLOMSTERDEKORATØR"
+      },
+      {
+        "id": "2FRA",
+        "name": "VG2, FRISØR"
+      },
+      {
+        "id": "2IBA",
+        "name": "IB Diploma Programme 1. ÅR"
+      },
+      {
+        "id": "2IDI",
+        "name": "VG2, STUDIEFORBEREDENDE IDRETT"
+      },
+      {
+        "id": "2KDA",
+        "name": "VG2,STUDIEFORB. KUNST, DESIGN OG ARKITEK"
+      },
+      {
+        "id": "2KPA",
+        "name": "VG2,KJEMI/PROSESS"
+      },
+      {
+        "id": "2KPB",
+        "name": "VG2,KJEMI/PROSESS"
+      },
+      {
+        "id": "2KPC",
+        "name": "VG2, KJEMI/PROSESS"
+      },
+      {
+        "id": "2LAB",
+        "name": "VG2, LABORATORIEFAG"
+      },
+      {
+        "id": "2MKA",
+        "name": "VG2, MEDIER OG KOMMUNIKASJON"
+      },
+      {
+        "id": "2STA",
+        "name": "VG2, STUDIESPESIALISERING"
+      },
+      {
+        "id": "2STB",
+        "name": "VG2, STUDIESPESIALISERING"
+      },
+      {
+        "id": "2STC",
+        "name": "VG2, STUDIESPESIALISERING"
+      },
+      {
+        "id": "2STD",
+        "name": "VG2, STUDIESPESIALISERING"
+      },
+      {
+        "id": "2STG",
+        "name": "VG2, STUDIESPESIALISERING"
+      },
+      {
+        "id": "2STH",
+        "name": "VG2, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "2STJ",
+        "name": "DELKURSELEVER, VG2"
+      },
+      {
+        "id": "3DHA",
+        "name": "VG3, INTERIØR"
+      },
+      {
+        "id": "3IBA",
+        "name": "IB Diploma Programme 2. ÅR"
+      },
+      {
+        "id": "3IDI",
+        "name": "VG3, IDRETT"
+      },
+      {
+        "id": "3MKA",
+        "name": "VG3, MEDIER OG KOMMUNIKASJON"
+      },
+      {
+        "id": "3STA",
+        "name": "VG3, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "3STB",
+        "name": "VG3, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "3STC",
+        "name": "VG3, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "3STD",
+        "name": "VG3, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "3STG",
+        "name": "VG3, STUDIESPESIALISERENDE"
+      },
+      {
+        "id": "3STH",
+        "name": "VG3 STUDIESPESIALISERING"
+      },
+      {
+        "id": "3TAFME",
+        "name": "TEKNISKE ALLMENNE FAG (KP/ME)"
+      },
+      {
+        "id": "4TAFKP",
+        "name": "TEKNISKE ALLMENNE FAG (KP/ME)"
+      },
+      {
+        "id": "4TAFME",
+        "name": "TEKNISKE ALLMENNE FAG (KP/ME)"
+      }
+    ]
   }
 ]
