@@ -2,6 +2,7 @@ const getStudents = require('../lib/get-students-in-class')
 const getAgreements = require('../lib/get-agreements-for-students')
 const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
+const isValidAgreement = agreement => ['elevpc', 'boker', 'images'].includes(agreement.agreementType)
 
 module.exports.getAgreements = async (request, h) => {
   const yar = request.yar
@@ -23,7 +24,28 @@ module.exports.getAgreements = async (request, h) => {
     students: students
   })
 
-  console.log(agreements)
+  const groupedAgreements = agreements.reduce((prev, current) => {
+    if (!prev.hasOwnProperty(current.agreementId)) {
+      prev[current.agreementId] = Object.assign({}, current, {parts: []})
+    }
+    prev[current.agreementId].parts.push(current)
+    return prev
+  }, {})
+
+  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, {signs: agreement.parts.map(a => a.status)})).filter(isValidAgreement)
+
+  const repackedAgreements = validAgreements.reduce((prev, curr) => {
+    if (!prev.hasOwnProperty(curr.agreementUserId)) {
+      prev[curr.agreementUserId] = {}
+    }
+    if (!prev[curr.agreementUserId].hasOwnProperty(curr.agreementType)) {
+      prev[curr.agreementUserId][curr.agreementType] = []
+    }
+    prev[curr.agreementUserId][curr.agreementType].push(curr)
+    return prev
+  }, {})
+
+  console.log(repackedAgreements)
 
   const dummyAgreements = [{
     name: 'Bottolf Grønn',
