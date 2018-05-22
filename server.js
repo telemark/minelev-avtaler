@@ -1,6 +1,8 @@
 const Hapi = require('hapi')
 const routes = require('./routes')
 const authRoutes = require('./routes/auth')
+const classRoutes = require('./routes/classes')
+const agreementRoutes = require('./routes/agreements')
 const config = require('./config')
 
 // Create a server with a host and port
@@ -12,6 +14,8 @@ const server = Hapi.server({
 // Add the routes
 server.route(routes)
 server.route(authRoutes)
+server.route(classRoutes)
+server.route(agreementRoutes)
 
 // Plugin options
 const yarOptions = {

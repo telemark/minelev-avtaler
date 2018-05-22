@@ -1,0 +1,20 @@
+<table>
+  <thead>
+  <tr>
+      <th>Navn</th>
+      <th>Elevpc</th>
+      <th>Bøker</th>
+      <th>Bilder</th>
+  </tr>
+  </thead>
+  <tbody>
+    {{#each agreements}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{statusPC}}</td>
+            <td>{{statusBooks}}</td>
+            <td>{{statusImages}}</td>
+        </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -3,32 +3,20 @@
     <tr>
         <th>Skole</th>
         <th>Gruppe</th>
-        <th class="{{featureToggle features.useWarnings}}">Vis rapport varsler</th>
-        <th class="{{featureToggle features.useSamtaler}}">Vis rapport elevsamtaler</th>
-        <th class="{{featureToggle features.useYFF}}">Vis rapport YFF</th>
+        <th>Vis avtaler</th>
     </tr>
     </thead>
     <tbody>
     {{#each myClasses}}
-    <tr>
-        <td>{{schoolId}}</td>
-        <td>{{group}}</td>
-        <td class="{{featureToggle ../features.useWarnings}}">
-            <a href="/reports/warnings/class/{{id}}" title="Vis rapport for varsler fra {{id}}">
-                <i class="material-icons">report</i>
-            </a>
-        </td>
-        <td class="{{featureToggle ../features.useSamtaler}}">
-            <a href="/reports/followups/class/{{id}}" title="Vis rapport for elevsamtaler fra {{id}}">
-                <i class="material-icons">chat</i>
-            </a>
-        </td>
-        <td class="{{featureToggle ../features.useYFF}}">
-            <a href="/reports/yff/class/{{id}}" title="Vis rapport for YFF fra {{id}}">
-                <i class="material-icons">assignment</i>
-            </a>
-        </td>
-    </tr>
+        <tr>
+            <td>{{schoolId}}</td>
+            <td>{{group}}</td>
+            <td>
+                <a href="/agreements/{{id}}" title="Vis avtaler fra {{id}}">
+                    <i class="material-icons">assignment</i>
+                </a>
+            </td>
+        </tr>
     {{/each}}
     </tbody>
 </table>
