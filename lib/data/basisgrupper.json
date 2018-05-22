@@ -1,0 +1,3122 @@
+[
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "AMO 1HOA",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag Oppdrag NAV",
+    "Elevantall": 16,
+    "FraDato": "2018-02-05",
+    "TilDato": "2018-12-09"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "AMO 2HEA",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag  Oppdrag NAV",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2017-12-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "HR 1HOA",
+    "Basisgruppenavn": "Vg1 Helse og oppvekst.Helserekrutter NAV",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-01-18"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "TIV 1HOA",
+    "Basisgruppenavn": "Talenter i vekslingsmodell oppl. bedrift",
+    "Elevantall": 6,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "TIV 1TIA",
+    "Basisgruppenavn": "Talenter i vekslingsmodell oppl. bedrift",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "VO 1HOA",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag Voksenopplæring",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "VO 1HOB",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag Voksenopplæring",
+    "Elevantall": 14,
+    "FraDato": "2016-12-05",
+    "TilDato": "2017-12-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "VO 1HOC",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag Voksenopplæring",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "VO 2HEA",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag  Voksenopplæring",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "VO 2HEB",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag Voksenopplæring",
+    "Elevantall": 14,
+    "FraDato": "2017-12-31",
+    "TilDato": "2018-12-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ALA",
+    "Basisgruppenavn": "Studiespes. med arbeidstrening-liten gr",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ALB",
+    "Basisgruppenavn": "Studiespes. med arbeidstrening-liten gr",
+    "Elevantall": 6,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ALC",
+    "Basisgruppenavn": "Studiespes. med arbeidstrening-liten gr",
+    "Elevantall": 4,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ALD",
+    "Basisgruppenavn": "Studiespes. med arbeidtrening- liten gr",
+    "Elevantall": 5,
+    "FraDato": "2017-08-21",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ALE",
+    "Basisgruppenavn": "Studiespes. med arbeidstrening-liten gr",
+    "Elevantall": 1,
+    "FraDato": "2017-08-16",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1ELA",
+    "Basisgruppenavn": "Vg1 Elektrofag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1HOA",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1HOB",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1HOC",
+    "Basisgruppenavn": "Vg1 Helse og oppvekstfag",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1RMA",
+    "Basisgruppenavn": "Vg1 Restaurant og matfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1SSA",
+    "Basisgruppenavn": "Service- og samferdsel",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1SSB",
+    "Basisgruppenavn": "Service- og samferdsel",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "Studiespesialisering VG1",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1STB",
+    "Basisgruppenavn": "Studiespesialisering VG1",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1TIA",
+    "Basisgruppenavn": "Vg1 Teknikk og ind. produksjon",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "1TIB",
+    "Basisgruppenavn": "Vg1 Teknikk og ind. produksjon",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2ELA",
+    "Basisgruppenavn": "Vg2 Elenergi",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2HEA",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2INA",
+    "Basisgruppenavn": "Vg2 Industriteknologi",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2INB",
+    "Basisgruppenavn": "Vg2 Industriteknologi",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2ISA",
+    "Basisgruppenavn": "VG2 IKT servicefag",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2KOA",
+    "Basisgruppenavn": "Vg2 Kokk- og servitørfag",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2SSA",
+    "Basisgruppenavn": "Salg, service- og sikkerhet",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "Studiespesialisering VG2",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "2STB",
+    "Basisgruppenavn": "Studiespesialisering VG2",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "3HUA",
+    "Basisgruppenavn": "Vg3 Hudpleier",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "3LÆR",
+    "Basisgruppenavn": "Vg3 Fagopplæring i skole",
+    "Elevantall": 8,
+    "FraDato": "2017-11-01",
+    "TilDato": "2019-02-20"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "3PBA",
+    "Basisgruppenavn": "Påbygging til GSK",
+    "Elevantall": 23,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "Studiespesialisering Vg3",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "3STB",
+    "Basisgruppenavn": "Studiespesialisering Vg3",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BAMVS",
+    "Basisgruppe": "4PBA",
+    "Basisgruppenavn": "Påbygg til GSK 4",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1DEL",
+    "Basisgruppenavn": "Delkurs",
+    "Elevantall": 4,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1IDA",
+    "Basisgruppenavn": "Vg1 idrettsfag",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1IDB",
+    "Basisgruppenavn": "Vg1 idrettsfag",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1IDC",
+    "Basisgruppenavn": "Vg1 idrettsfag",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "Vg1 studiespesialisering",
+    "Elevantall": 22,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1STB",
+    "Basisgruppenavn": "Vg1 studiespesialisering",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "1STC",
+    "Basisgruppenavn": "Vg1 studiespesialisering",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "2IDA",
+    "Basisgruppenavn": "Vg2 idrettsfag",
+    "Elevantall": 23,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "2IDB",
+    "Basisgruppenavn": "Vg2 idrettsfag",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "Vg2 studiespesialisering",
+    "Elevantall": 23,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "2STB",
+    "Basisgruppenavn": "Vg2 studiespesialisering",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "2STC",
+    "Basisgruppenavn": "Vg2 studiespesialisering",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "3IDA",
+    "Basisgruppenavn": "Vg3 idrettsfag",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "3IDB",
+    "Basisgruppenavn": "Vg3 idrettsfag",
+    "Elevantall": 21,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "Vg3 studiespesialisering",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "3STB",
+    "Basisgruppenavn": "Vg3 studiespesialisering",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "BOEVS",
+    "Basisgruppe": "3STC",
+    "Basisgruppenavn": "Vg3 studiespesialisering",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "CROVSVO",
+    "Basisgruppe": "E-UK",
+    "Basisgruppenavn": "Elever uten klasse",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1ELEA",
+    "Basisgruppenavn": "Elektrofag",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1HOFA",
+    "Basisgruppenavn": "Helse- og oppvekstfag",
+    "Elevantall": 22,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1MKA",
+    "Basisgruppenavn": "Vg1 medier og kommunikasjon",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1OMIGA",
+    "Basisgruppenavn": "ST Spes.u liten gr A, 1 år",
+    "Elevantall": 1,
+    "FraDato": "2013-08-01",
+    "TilDato": "2014-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1RMA",
+    "Basisgruppenavn": "Vg1 restaurant og matfag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1RMB",
+    "Basisgruppenavn": "Restaurant-og matfag, lita gruppe",
+    "Elevantall": 6,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1STAA",
+    "Basisgruppenavn": "Studiespesialisering vg1",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1TIPA",
+    "Basisgruppenavn": "Teknikk og industriell produksjon vg1",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "1TIPB",
+    "Basisgruppenavn": "Teknikk og industriell produksjon vg1",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2AMKA",
+    "Basisgruppenavn": "Arbeidsmaskinar vg2",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2BAUA",
+    "Basisgruppenavn": "Barne- og ungdomsarbeiderfag vg2",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2ELEA",
+    "Basisgruppenavn": "Elenergi vg2",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2HEAA",
+    "Basisgruppenavn": "Helsearbeiderfag vg2",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2HEAB",
+    "Basisgruppenavn": "Helsearbeiderfag vg2",
+    "Elevantall": 14,
+    "FraDato": "2017-08-28",
+    "TilDato": "2017-12-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2KJØA",
+    "Basisgruppenavn": "Køyrety vg2",
+    "Elevantall": 4,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2KSA",
+    "Basisgruppenavn": "Vg2 kokk og servitør",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2MKA",
+    "Basisgruppenavn": "Vg2 medier og kommunikasjon",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2REAA",
+    "Basisgruppenavn": "Realfag vg2",
+    "Elevantall": 3,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2SSAA",
+    "Basisgruppenavn": "Språk, samfunnsfag og økonomi",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "2TEKA",
+    "Basisgruppenavn": "Teknologiske fag vg2",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "3MKA",
+    "Basisgruppenavn": "Vg3 medier og kommunikasjon",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "3PBA",
+    "Basisgruppenavn": "Vg3 påbygg til generell studiekompetanse",
+    "Elevantall": 19,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "3REAA",
+    "Basisgruppenavn": "Realfag",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "3SSAA",
+    "Basisgruppenavn": "Språk, samfunnsfag og økonomi",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVS",
+    "Basisgruppe": "5OMIGA",
+    "Basisgruppenavn": "Opplæring i mindre grupper",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "DALVSPRIV",
+    "Basisgruppe": "3VOA",
+    "Basisgruppenavn": "Privatistar",
+    "Elevantall": 3,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "GKATF",
+    "Basisgruppenavn": "Grunnkompetanse Atferd",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "GK3",
+    "Basisgruppenavn": "Grunnkompetanse VG3",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "STUD-A",
+    "Basisgruppenavn": "Studiespesialisering",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "STUD-B",
+    "Basisgruppenavn": "Studiespesialisering",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "STUD-C",
+    "Basisgruppenavn": "Studiespesialisering",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "STUD-D",
+    "Basisgruppenavn": "Studiespesialisering",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "STUD-E",
+    "Basisgruppenavn": "Studiespesialisering",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "VG3LÆR",
+    "Basisgruppenavn": "Opplæring i skole, lærlinger",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1IDA",
+    "Basisgruppenavn": "VG1 Idrett",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1IDB",
+    "Basisgruppenavn": "VG1 Idrett",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1IDC",
+    "Basisgruppenavn": "VG1 Idrett",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1MKA",
+    "Basisgruppenavn": "VG1  Medier og kommunikasjon",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1MKB",
+    "Basisgruppenavn": "VG1  Medier og kommunikasjon",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1RMA",
+    "Basisgruppenavn": "VG1 Restaurant- og matfag",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "1RMB",
+    "Basisgruppenavn": "VG1 Restaurant- og matfag",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2IDRA",
+    "Basisgruppenavn": "Vg2 Idrettsfag",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2IDRB",
+    "Basisgruppenavn": "Vg2 Idrettsfag",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2IDRC",
+    "Basisgruppenavn": "Vg2 Idrettsfag",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2KOSA",
+    "Basisgruppenavn": "Vg2 Kokk- og servitørfag",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2MEDA",
+    "Basisgruppenavn": "Vg2 Medier og kommunikasjon",
+    "Elevantall": 23,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "2MEDB",
+    "Basisgruppenavn": "Vg2 Medier og kommunikasjon",
+    "Elevantall": 22,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "3IDRA",
+    "Basisgruppenavn": "Vg3 idrettsfag",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "3IDRB",
+    "Basisgruppenavn": "Vg3 idrettsfag",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "3MEDA",
+    "Basisgruppenavn": "Vg3 Medier og kommunikasjon",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "3PBYA",
+    "Basisgruppenavn": "Påbygging til GSK",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "3PBYB",
+    "Basisgruppenavn": "Påbygging til GSK",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "4PBYA",
+    "Basisgruppenavn": "Påbygging til GSK",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVS",
+    "Basisgruppe": "4PBYB",
+    "Basisgruppenavn": "Påbygging til GSK",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "E-UK",
+    "Basisgruppenavn": "Elever uten klasse",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRHNC",
+    "Basisgruppenavn": "",
+    "Elevantall": 2,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRHNE",
+    "Basisgruppenavn": "",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRIDA",
+    "Basisgruppenavn": "",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRIDB",
+    "Basisgruppenavn": "",
+    "Elevantall": 2,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRMEA",
+    "Basisgruppenavn": "gk mekaniske fag",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "1PRMEE",
+    "Basisgruppenavn": "",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "2PRMKB",
+    "Basisgruppenavn": "",
+    "Elevantall": 2,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSPRIV",
+    "Basisgruppe": "3PRIDB",
+    "Basisgruppenavn": "",
+    "Elevantall": 2,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "KLOVSVO",
+    "Basisgruppe": "VO-S",
+    "Basisgruppenavn": "Voksenopplæring studiespes.",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KLOVSVO",
+    "Basisgruppe": "VO-Y",
+    "Basisgruppenavn": "Voksenopplæring yrkesfag",
+    "Elevantall": 34,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "VO-3PBC",
+    "Basisgruppenavn": "Vg3 Minimumskrav til gen. studiekomp.",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1BAA",
+    "Basisgruppenavn": "Vg1 Bygg- og anleggsteknikk Basisgr.A",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1HOA",
+    "Basisgruppenavn": "Vg1 Helse- og oppvektsfag Basisgr.A",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1HOB",
+    "Basisgruppenavn": "Vg1 Helse- og oppvekstfag Basisgr. B",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1IDR",
+    "Basisgruppenavn": "Vg1 Idrettsfag Basisgr.A",
+    "Elevantall": 32,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1STP",
+    "Basisgruppenavn": "Vg1 Studiespesialisering Basisgr.A",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1STT",
+    "Basisgruppenavn": "Vg1 Studiespesialisering Basisgr.B",
+    "Elevantall": 21,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1TIA",
+    "Basisgruppenavn": "Vg1 Tekn. og ind.prod Basisgr.A",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "1TIB",
+    "Basisgruppenavn": "Vg1 Tekn. og ind.prod Basisgr.B",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2BUA",
+    "Basisgruppenavn": "Vg2 Barne- og ungdomsarbeider",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2BYG",
+    "Basisgruppenavn": "Vg2 Byggteknikk",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2HEA",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2IDR",
+    "Basisgruppenavn": "Vg2 Idrettsfag Basisgruppe A",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2PIN",
+    "Basisgruppenavn": "Vg2 Produksjon og industriteknikk",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2REA",
+    "Basisgruppenavn": "Vg2 Realfag",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2SAM",
+    "Basisgruppenavn": "Vg2 Språk, samfunnsfag og økonomi",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "2STO1",
+    "Basisgruppenavn": "2.års STO - Gruppe 1",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3IDR",
+    "Basisgruppenavn": "Vg3 Idrettsfag",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3PBA",
+    "Basisgruppenavn": "Vg3 Pågygging til generell studiekompeta",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3PBB",
+    "Basisgruppenavn": "Vg3 Påbygging til generell studiekompeta",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3REA",
+    "Basisgruppenavn": "Vg3 Realfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3SAM",
+    "Basisgruppenavn": "Vg3 Språk, samfunnsfag og økonomi",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "3STO1",
+    "Basisgruppenavn": "3.års STO - Gruppe 1",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVS",
+    "Basisgruppe": "4STO1",
+    "Basisgruppenavn": "4.års STO - Gruppe 1",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "KRAVSVOSLU",
+    "Basisgruppe": "VO-HO-HE",
+    "Basisgruppenavn": "Fellesfag til Vg1+Vg2 Helsearbeiderfag",
+    "Elevantall": 5,
+    "FraDato": "2012-08-01",
+    "TilDato": "2013-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "GRSK",
+    "Basisgruppenavn": "Grunnskoleelev",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "VG3KJTB",
+    "Basisgruppenavn": "Vg3 Bilfaget, lette kjøretøy B",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "VO2BYA",
+    "Basisgruppenavn": "VO Byggteknikk NAV",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "VO2HEA",
+    "Basisgruppenavn": "VO Helsearbeiderfag NAV",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "VO2HEB",
+    "Basisgruppenavn": "VO Helsearbeiderfag",
+    "Elevantall": 4,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "VO3LBA",
+    "Basisgruppenavn": "Vg3 Landbruk og husdyrhold",
+    "Elevantall": 33,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1BAA",
+    "Basisgruppenavn": "Vg1 bygg- og anleggsteknikk A",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1BAB",
+    "Basisgruppenavn": "Vg1 Bygg- og anleggsteknikk B",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1BAC",
+    "Basisgruppenavn": "Vg1 Bygg- og anleggsteknikk C",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1DHA",
+    "Basisgruppenavn": "Vg1 Design og håndverk",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1ELA",
+    "Basisgruppenavn": "Vg1 Elektrofag A",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1ELB",
+    "Basisgruppenavn": "Vg1 Elektrofag B",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1HSA",
+    "Basisgruppenavn": "Vg1 Helse- og oppvekstfag A",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1HSB",
+    "Basisgruppenavn": "Vg1 Helse- og oppvekstfag B",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1HSC",
+    "Basisgruppenavn": "Vg1  HS  liten gruppe  1. år",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1NAA",
+    "Basisgruppenavn": "Vg1 Naturbruk A",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1NAB",
+    "Basisgruppenavn": "Vg1 Naturbruk B",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1TIA",
+    "Basisgruppenavn": "Vg1 Teknikk og ind. produksjon A",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "1TIB",
+    "Basisgruppenavn": "Vg1 Teknikk og ind. produksjon B",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2AIDA",
+    "Basisgruppenavn": "Vg2 Anleggsgartner- og idrettsanleggsfag",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2ANLA",
+    "Basisgruppenavn": "Vg2 Anleggsteknikk A",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2ANLB",
+    "Basisgruppenavn": "Vg2 Anleggsteknikk B",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2BYGA",
+    "Basisgruppenavn": "Vg2 Byggteknikk A",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2BYGB",
+    "Basisgruppenavn": "Vg2 Byggteknikk B",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2ELEA",
+    "Basisgruppenavn": "Vg2 Elenergi",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2FRIA",
+    "Basisgruppenavn": "Vg2 Frisør",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2HEAA",
+    "Basisgruppenavn": "Vg2 Helsearbeiderfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2HHOA",
+    "Basisgruppenavn": "Vg2 Heste- og hovslagerfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2LGAA",
+    "Basisgruppenavn": "Vg2 Landbruk og gartnernæring",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2LGAB",
+    "Basisgruppenavn": "Vg2  LG  liten gruppe 2. år",
+    "Elevantall": 2,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2PINA",
+    "Basisgruppenavn": "Vg2 Industriteknologi",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "2SBRA",
+    "Basisgruppenavn": "Vg2 Skogbruk",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "3LBRA",
+    "Basisgruppenavn": "Vg3 Landbruk",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "3NABA",
+    "Basisgruppenavn": "Vg3 Studieforberedende naturbruk",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOMVS",
+    "Basisgruppe": "3PBYA",
+    "Basisgruppenavn": "Vg3 Påbygg til gen.studiekomp.",
+    "Elevantall": 21,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "RESNETTSKOL",
+    "Basisgruppenavn": "Nettskolen",
+    "Elevantall": 1,
+    "FraDato": "2016-08-01",
+    "TilDato": "2017-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1ELA",
+    "Basisgruppenavn": "Elektrofag VG1",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1HOA",
+    "Basisgruppenavn": "VG1 Helse- og oppvekstfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1HOB",
+    "Basisgruppenavn": "Helse og oppvekst",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1HOC",
+    "Basisgruppenavn": "VG1 helse og oppvekst",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1SSA",
+    "Basisgruppenavn": "Service og samferdsel Vg1",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "Studiespesialisering Vg1",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1STAR",
+    "Basisgruppenavn": "Studiespes. m/arbeidstrening",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1STB",
+    "Basisgruppenavn": "Studiespesialisering Vg1",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1STC",
+    "Basisgruppenavn": "Studiespesialisering Vg1",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1TPA",
+    "Basisgruppenavn": "Teknikk og industriell produksjon Vg1",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "1TPB",
+    "Basisgruppenavn": "Teknikk og industriell produksjon Vg1",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2AUT",
+    "Basisgruppenavn": "Automatisering",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-01"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2BUA",
+    "Basisgruppenavn": "Barne- og ungdomsarbeider",
+    "Elevantall": 19,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2HEA",
+    "Basisgruppenavn": "Helsearbeider",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2HEB",
+    "Basisgruppenavn": "Helsearbeiderfag",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2INT",
+    "Basisgruppenavn": "Industriteknologi",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2KJØ",
+    "Basisgruppenavn": "Kjøretøy",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2SSS",
+    "Basisgruppenavn": "Salg- service og sikkerhet",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "Studiespesialisering Vg2",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2STB",
+    "Basisgruppenavn": "Studiespesialisering Vg2",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2STC",
+    "Basisgruppenavn": "Studiespesialisering Vg2",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "2TRL",
+    "Basisgruppenavn": "Transportfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3HOS",
+    "Basisgruppenavn": "Helse og oppvekst m SK",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3PB",
+    "Basisgruppenavn": "Påbygging generell studiekompetanse",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "Studiespesialisering Vg3",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3STB",
+    "Basisgruppenavn": "Studiespesialisering Vg3",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3STC",
+    "Basisgruppenavn": "Studiespesialisering Vg3",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3STD",
+    "Basisgruppenavn": "Delkurselever",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3YSA",
+    "Basisgruppenavn": "Yrkessjåfør",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-01-15"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3YSB",
+    "Basisgruppenavn": "Yrkessjåfør",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-01-15"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3YSC",
+    "Basisgruppenavn": "Yrkessjåfør våren 2018",
+    "Elevantall": 12,
+    "FraDato": "2018-01-08",
+    "TilDato": "2018-06-22"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "3YSD",
+    "Basisgruppenavn": "Yrkessjåfør våren 2018",
+    "Elevantall": 12,
+    "FraDato": "2018-01-08",
+    "TilDato": "2018-06-22"
+  },
+  {
+    "Enhet": "NOTVS",
+    "Basisgruppe": "4PB",
+    "Basisgruppenavn": "Påbygging til gen. studiekomp- fagbrev",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1DHA",
+    "Basisgruppenavn": "VG1, DESIGN OG HÅNDVERK",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1DHB",
+    "Basisgruppenavn": "VG1, DESIGN OG HÅNDVERK",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1IDI",
+    "Basisgruppenavn": "VG1, STUDIEFORBEREDENDE IDRETT",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1IDK",
+    "Basisgruppenavn": "VG1 Studieforberedende Idrett",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1KDA",
+    "Basisgruppenavn": "VG1,STUDIEFORB. KUNST, DESIGN OG ARKITEK",
+    "Elevantall": 23,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1MKA",
+    "Basisgruppenavn": "VG1,STUDIEFORB. MEDIER OG KOMMUNIKASJON",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1SAA",
+    "Basisgruppenavn": "STUDIESPES. M/ARBEIDSTRENING",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1SAB",
+    "Basisgruppenavn": "STUDIESPES. M/ARBEIDSTRENING",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1SAC",
+    "Basisgruppenavn": "STUDIESPES. M/ARBEIDSTRENING",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STB",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STC",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STD",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING - PRE IB",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STE",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING - PRE IB",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STG",
+    "Basisgruppenavn": "VG1, STUDIESPESIALISERING",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STJ",
+    "Basisgruppenavn": "DELKURSELEVER,  VG1",
+    "Elevantall": 1,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1STU",
+    "Basisgruppenavn": "FRA 10. KLASSE",
+    "Elevantall": 20,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1TIA",
+    "Basisgruppenavn": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1TIB",
+    "Basisgruppenavn": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "1TIC",
+    "Basisgruppenavn": "VG1, TEKNIKK OGINDUSTRIELL PRODUKSJON",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2BLA",
+    "Basisgruppenavn": "VG2, BLOMSTERDEKORATØR",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2FRA",
+    "Basisgruppenavn": "VG2, FRISØR",
+    "Elevantall": 7,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2IBA",
+    "Basisgruppenavn": "IB Diploma Programme 1. ÅR",
+    "Elevantall": 32,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2IDI",
+    "Basisgruppenavn": "VG2, STUDIEFORBEREDENDE IDRETT",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2KDA",
+    "Basisgruppenavn": "VG2,STUDIEFORB. KUNST, DESIGN OG ARKITEK",
+    "Elevantall": 20,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2KPA",
+    "Basisgruppenavn": "VG2,KJEMI/PROSESS",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2KPB",
+    "Basisgruppenavn": "VG2,KJEMI/PROSESS",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2KPC",
+    "Basisgruppenavn": "VG2, KJEMI/PROSESS",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2LAB",
+    "Basisgruppenavn": "VG2, LABORATORIEFAG",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2MKA",
+    "Basisgruppenavn": "VG2, MEDIER OG KOMMUNIKASJON",
+    "Elevantall": 22,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERING",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STB",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERING",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STC",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERING",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STD",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERING",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STG",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERING",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STH",
+    "Basisgruppenavn": "VG2, STUDIESPESIALISERENDE",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "2STJ",
+    "Basisgruppenavn": "DELKURSELEVER, VG2",
+    "Elevantall": 2,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3DHA",
+    "Basisgruppenavn": "VG3, INTERIØR",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3IBA",
+    "Basisgruppenavn": "IB Diploma Programme 2. ÅR",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3IDI",
+    "Basisgruppenavn": "VG3, IDRETT",
+    "Elevantall": 32,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3MKA",
+    "Basisgruppenavn": "VG3, MEDIER OG KOMMUNIKASJON",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "VG3, STUDIESPESIALISERENDE",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STB",
+    "Basisgruppenavn": "VG3, STUDIESPESIALISERENDE",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STC",
+    "Basisgruppenavn": "VG3, STUDIESPESIALISERENDE",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STD",
+    "Basisgruppenavn": "VG3, STUDIESPESIALISERENDE",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STG",
+    "Basisgruppenavn": "VG3, STUDIESPESIALISERENDE",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3STH",
+    "Basisgruppenavn": "VG3 STUDIESPESIALISERING",
+    "Elevantall": 20,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "3TAFME",
+    "Basisgruppenavn": "TEKNISKE ALLMENNE FAG (KP/ME)",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "4TAFKP",
+    "Basisgruppenavn": "TEKNISKE ALLMENNE FAG (KP/ME)",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "PORVS",
+    "Basisgruppe": "4TAFME",
+    "Basisgruppenavn": "TEKNISKE ALLMENNE FAG (KP/ME)",
+    "Elevantall": 6,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1AO",
+    "Basisgruppenavn": "1AO alternativ opplæring",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1BA",
+    "Basisgruppenavn": "Vg1 bygg- og anleggsteknikk",
+    "Elevantall": 18,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1EL",
+    "Basisgruppenavn": "Vg1 elektrofag",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1HO",
+    "Basisgruppenavn": "Vg1 helse- og oppvekstfag",
+    "Elevantall": 21,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "Vg1 studiespesialisering",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1STNM",
+    "Basisgruppenavn": "Vg1 natur og miljø",
+    "Elevantall": 4,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "1TP",
+    "Basisgruppenavn": "Vg1 teknikk og industriell produksjon",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2BA",
+    "Basisgruppenavn": "Vg2 byggteknikk",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2EL",
+    "Basisgruppenavn": "Vg2 elenergi",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2HEA",
+    "Basisgruppenavn": "Vg2 helsearbeiderfag",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "Vg2 studiespesialisering",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2STNM",
+    "Basisgruppenavn": "Vg2 natur og miljø",
+    "Elevantall": 2,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "2TP",
+    "Basisgruppenavn": "Vg2 industriteknologi",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "3PB",
+    "Basisgruppenavn": "Vg3 påbygging til gen. studiekompetanse",
+    "Elevantall": 17,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "Vg3 studiespesialisering",
+    "Elevantall": 19,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVS",
+    "Basisgruppe": "3STNM",
+    "Basisgruppenavn": "Vg3 Natur og miljø",
+    "Elevantall": 5,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "RJUVSPRIV",
+    "Basisgruppe": "AFP",
+    "Basisgruppenavn": "AF2007 privatister",
+    "Elevantall": 2,
+    "FraDato": "2007-08-18",
+    "TilDato": "2008-06-20"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "VOE",
+    "Basisgruppenavn": "Voksenopplæring dagtid",
+    "Elevantall": 45,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "VOK",
+    "Basisgruppenavn": "Voksenopplæring kveldstid",
+    "Elevantall": 54,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1MDA",
+    "Basisgruppenavn": "VG1-MUS",
+    "Elevantall": 32,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1MDB",
+    "Basisgruppenavn": "VG1-DD",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1SAA",
+    "Basisgruppenavn": "VG1 SS",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1SAB",
+    "Basisgruppenavn": "VG1 SS",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1SAC",
+    "Basisgruppenavn": "VG1 SS",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STA",
+    "Basisgruppenavn": "VG1 STUSP1",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STB",
+    "Basisgruppenavn": "VG1 STUSP1 Forskerlinja",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STC",
+    "Basisgruppenavn": "VG1 STUSP1",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STD",
+    "Basisgruppenavn": "VG1 STUSP1",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STE",
+    "Basisgruppenavn": "VG1 STUSP1 Spansk 2",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STF",
+    "Basisgruppenavn": "VG1 STUSP1",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STG",
+    "Basisgruppenavn": "VG1 STUSP1 Tysk 2",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STH",
+    "Basisgruppenavn": "VG1 STUSP1 Tysk 1",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "1STU",
+    "Basisgruppenavn": "Elever fra ungdomsskolen i matematikk",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2MDA",
+    "Basisgruppenavn": "VG2 MUS",
+    "Elevantall": 24,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2MDB",
+    "Basisgruppenavn": "VG2 DD",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2SAA",
+    "Basisgruppenavn": "VG2SSS",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2SAB",
+    "Basisgruppenavn": "VG2SSS",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2SAC",
+    "Basisgruppenavn": "VG2IKT",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2SAD",
+    "Basisgruppenavn": "VG2RLV",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2SAE",
+    "Basisgruppenavn": "VG2TRL",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STA",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STB",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STC",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STD",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STE",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STF",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 21,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "2STG",
+    "Basisgruppenavn": "VG2ST",
+    "Elevantall": 27,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3AFI",
+    "Basisgruppenavn": "Delkurselever",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3MDA",
+    "Basisgruppenavn": "VG3MUS",
+    "Elevantall": 32,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3MDB",
+    "Basisgruppenavn": "VG3DD",
+    "Elevantall": 26,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3SAA",
+    "Basisgruppenavn": "VG3 Service og samferdsel påbygging",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STA",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STB",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STC",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STD",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STE",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STF",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 30,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STG",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 31,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVS",
+    "Basisgruppe": "3STH",
+    "Basisgruppenavn": "VG3ST",
+    "Elevantall": 29,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKIVSPRIV",
+    "Basisgruppe": "E-UK",
+    "Basisgruppenavn": "Elever uten klasse",
+    "Elevantall": 15,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "Eksamenstest",
+    "Basisgruppenavn": "Testgruppe",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "VO1BA",
+    "Basisgruppenavn": "bygg og anlegg vg1 voksne",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "VO1BY",
+    "Basisgruppenavn": "Bygg og anleggsteknikk for voksne",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "VO2BY",
+    "Basisgruppenavn": "Vg2 Bygg og anleggsteknikk for voksne",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "VO3HES",
+    "Basisgruppenavn": "Helsesekretærer for voksne",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2017-08-01"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAA",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAB",
+    "Basisgruppenavn": "VG1  bygg- og anleggsteknikk",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAC",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAD",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAE",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAF",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1BAG",
+    "Basisgruppenavn": "VG1 bygg- og anleggsteknikk",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1ELA",
+    "Basisgruppenavn": "VG1 elektrofag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1ELB",
+    "Basisgruppenavn": "VG1 elektrofag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1ELC",
+    "Basisgruppenavn": "VG1 elektrofag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1ELD",
+    "Basisgruppenavn": "VG1 elektrofag",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HAA",
+    "Basisgruppenavn": "Helse/oppvekst SK 3 år",
+    "Elevantall": 18,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HAB",
+    "Basisgruppenavn": "Helse/oppvekst SK 3 år",
+    "Elevantall": 19,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HAC",
+    "Basisgruppenavn": "Helse/oppvekst SK 3 år",
+    "Elevantall": 20,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOA",
+    "Basisgruppenavn": "Helse -og oppvekstfag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOB",
+    "Basisgruppenavn": "Helse -og oppvekstfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOC",
+    "Basisgruppenavn": "Helse -og oppvekstfag",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOD",
+    "Basisgruppenavn": "Helse -og oppvekstfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOE",
+    "Basisgruppenavn": "Helse -og oppvekstfag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOF",
+    "Basisgruppenavn": "Helse- og oppvekstfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1HOG",
+    "Basisgruppenavn": "Helse- og oppvekstfag",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1TIPA",
+    "Basisgruppenavn": "Teknikk og ind.produksjon",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1TIPB",
+    "Basisgruppenavn": "Teknikk og ind.produksjon",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "1TIPC",
+    "Basisgruppenavn": "Teknikk og ind.produksojn",
+    "Elevantall": 10,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2AMBA",
+    "Basisgruppenavn": "VG2 ambulansefag",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2AUTA",
+    "Basisgruppenavn": "VG2 automatisering",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BAUA",
+    "Basisgruppenavn": "Barne- og ungd.arb. SK 3 år",
+    "Elevantall": 20,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BLKA",
+    "Basisgruppenavn": "Bilskade, lakk og karosseri",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BUAA",
+    "Basisgruppenavn": "VG2 barne- og ungdomsarbeider",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BUAB",
+    "Basisgruppenavn": "VG2 barne- og ungdomsarbeider",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BUAC",
+    "Basisgruppenavn": "Vg2 Barne- og ungdomsarbeider",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BYGA",
+    "Basisgruppenavn": "VG2 byggteknikk",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BYGB",
+    "Basisgruppenavn": "VG2 byggteknikk",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BYGC",
+    "Basisgruppenavn": "VG2 byggteknikk",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2BYGD",
+    "Basisgruppenavn": "Vg2 Byggteknikk",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2DELA",
+    "Basisgruppenavn": "VG2 data og elektronikk",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2ELEA",
+    "Basisgruppenavn": "VG2 elenergi",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2ELEB",
+    "Basisgruppenavn": "VG2 elenergi",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HAFA",
+    "Basisgruppenavn": "VG2 Helsearbeiderfag SK 3-årig",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HAFB",
+    "Basisgruppenavn": "Helsearbeiderfag SK 3-årig",
+    "Elevantall": 15,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HESA",
+    "Basisgruppenavn": "Helseservicefag",
+    "Elevantall": 9,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HESB",
+    "Basisgruppenavn": "Helseservicefag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HFAA",
+    "Basisgruppenavn": "VG2 helsearbeiderfag",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2HFAB",
+    "Basisgruppenavn": "VG2 helsearbeiderfag",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2KEMA",
+    "Basisgruppenavn": "VG2 klima-, energi- og miljøteknikk",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2KEMB",
+    "Basisgruppenavn": "VG2 klima-, energi- og miljøteknikk",
+    "Elevantall": 16,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2KJTA",
+    "Basisgruppenavn": "Kjøretøy",
+    "Elevantall": 13,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2KJTB",
+    "Basisgruppenavn": "Kjøretøy",
+    "Elevantall": 12,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "2PINA",
+    "Basisgruppenavn": "Industriteknologi",
+    "Elevantall": 14,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3AFA",
+    "Basisgruppenavn": "Vg3 Påbygg gen.stk, SK",
+    "Elevantall": 28,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3AFB",
+    "Basisgruppenavn": "Vg3 påbygg gen.stk, SK",
+    "Elevantall": 25,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3APOA",
+    "Basisgruppenavn": "Vg3 Apotekteknikk",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3AUTA",
+    "Basisgruppenavn": "Vg3 automatiseringsfaget",
+    "Elevantall": 11,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3DATA",
+    "Basisgruppenavn": "VG3 Dataelektroniker",
+    "Elevantall": 8,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVS",
+    "Basisgruppe": "3PRETEL",
+    "Basisgruppenavn": "Telemontorer",
+    "Elevantall": 6,
+    "FraDato": "2017-08-01",
+    "TilDato": "2018-07-31"
+  },
+  {
+    "Enhet": "SKOVSPRIV",
+    "Basisgruppe": "E-UK",
+    "Basisgruppenavn": "Elever uten klasse",
+    "Elevantall": 1,
+    "FraDato": "",
+    "TilDato": ""
+  },
+  {
+    "Enhet": "SKOVSVO",
+    "Basisgruppe": "VO2016",
+    "Basisgruppenavn": "Voksenopplæring / Realkompetansevurdert",
+    "Elevantall": 4,
+    "FraDato": "",
+    "TilDato": ""
+  }
+]

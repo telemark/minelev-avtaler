@@ -1,0 +1,57 @@
+[
+  {
+    "id": "BAMVS",
+    "name": "Bamble videregående skole",
+    "accessGroup": "TFK-TG-MinElev-BAMVS"
+  },
+  {
+    "id": "BOEVS",
+    "name": "Bø vidaregåande skule",
+    "accessGroup": "TFK-TG-MinElev-BOEVS"
+  },
+  {
+    "id": "DALVS",
+    "name": "Vest-Telemark vidaregåande skule",
+    "accessGroup": "TFK-TG-MinElev-DALVS"
+  },
+  {
+    "id": "KLOVS",
+    "name": "Hjalmar Johansen videregående skole",
+    "accessGroup": "TFK-TG-MinElev-KLOVS"
+  },
+  {
+    "id": "KRAVS",
+    "name": "Kragerø videregående skole",
+    "accessGroup": "TFK-TG-MinElev-KRAVS"
+  },
+  {
+    "id": "NOMVS",
+    "name": "Nome videregående skole",
+    "accessGroup": "TFK-TG-MinElev-NOMVS"
+  },
+  {
+    "id": "NOTVS",
+    "name": "Notodden videregående skole",
+    "accessGroup": "TFK-TG-MinElev-NOTVS"
+  },
+  {
+    "id": "RJUVS",
+    "name": "Rjukan videregående skole",
+    "accessGroup": "TFK-TG-MinElev-RJUVS"
+  },
+  {
+    "id": "SKIVS",
+    "name": "Skien videregående skole",
+    "accessGroup": "TFK-TG-MinElev-SKIVS"
+  },
+  {
+    "id": "SKOVS",
+    "name": "Skogmo videregående skole",
+    "accessGroup": "TFK-TG-MinElev-SKOVS"
+  },
+  {
+    "id": "PORVS",
+    "name": "Porsgrunn videregående skole",
+    "accessGroup": "TFK-TG-MinElev-PORVS"
+  }
+]

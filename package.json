@@ -22,7 +22,9 @@
     "deploy": "npm test && now && now alias",
     "start": "node server.js",
     "dev": "NODE_ENV=development node server.js",
-    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "generate-schools": "node lib/utils/generate-schools-data.js",
+    "convert-excel": "node lib/utils/convert-excel-to-json.js"
   },
   "keywords": [
     "Louie",
@@ -58,6 +60,7 @@
   "devDependencies": {
     "ava": "0.25.0",
     "coveralls": "3.0.1",
+    "excel-as-json": "2.0.2",
     "nsp": "3.2.1",
     "nyc": "11.8.0",
     "standard": "11.0.1"
