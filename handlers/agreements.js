@@ -4,6 +4,20 @@ const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
 const isValidAgreement = agreement => ['elevpc', 'boker', 'images'].includes(agreement.agreementType)
 
+function getAgreementStatus (agreement) {
+  let status = 'unknown'
+  if (agreement.signs.includes('expired')) {
+    status = 'expired'
+  } else if (agreement.signs.includes('cancelled')) {
+    status = 'cancelled'
+  } else if (agreement.signs.includes('unsigned')) {
+    status = 'unsigned'
+  } else if (agreement.signs.includes('signed')) {
+    status = 'signed'
+  }
+  return status
+}
+
 module.exports.getAgreements = async (request, h) => {
   const yar = request.yar
   const userId = request.auth.credentials.data.userId
@@ -38,23 +52,16 @@ module.exports.getAgreements = async (request, h) => {
     if (!prev.hasOwnProperty(curr.agreementUserId)) {
       prev[curr.agreementUserId] = {}
     }
-    if (!prev[curr.agreementUserId].hasOwnProperty(curr.agreementType)) {
-      prev[curr.agreementUserId][curr.agreementType] = []
+    prev[curr.agreementUserId][curr.agreementType] = {
+      agreementId: curr.agreementId,
+      status: getAgreementStatus(curr)
     }
-    prev[curr.agreementUserId][curr.agreementType].push(curr)
     return prev
   }, {})
 
-  console.log(repackedAgreements)
+  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber]))
 
-  const dummyAgreements = [{
-    name: 'Bottolf Grønn',
-    statusPC: 'Ja',
-    statusBooks: 'Nei',
-    statusImages: 'Ja'
-  }]
-
-  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: dummyAgreements, classID: classId})
+  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId})
 
   return h.view('agreements', viewOptions)
 }

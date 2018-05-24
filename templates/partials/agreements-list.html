@@ -10,10 +10,10 @@
   <tbody>
     {{#each agreements}}
         <tr>
-            <td>{{name}}</td>
-            <td>{{statusPC}}</td>
-            <td>{{statusBooks}}</td>
-            <td>{{statusImages}}</td>
+            <td>{{fullName}}</td>
+            <td>{{resolveAgreementStatus elevpc}}</td>
+            <td>{{resolveAgreementStatus boker}}</td>
+            <td>{{resolveAgreementStatus images}}</td>
         </tr>
     {{/each}}
   </tbody>
