@@ -1,0 +1,10 @@
+<h1>Avtaledetaljer {{userData.name}}</h1>
+
+{{#each agreements}}
+  {{agreementType}}<br />
+  {{status}}<br/>
+  {{#each history}}
+    {{tidspunkt}}: {{hendelse}}<br/>
+  {{/each}}
+  <hr />
+{{/each}}

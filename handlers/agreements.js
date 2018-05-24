@@ -1,5 +1,7 @@
+const { pack, unpack } = require('jcb64')
 const getStudents = require('../lib/get-students-in-class')
 const getAgreements = require('../lib/get-agreements-for-students')
+const getAgreement = require('../lib/get-agreement-details')
 const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
 const isValidAgreement = agreement => ['elevpc', 'boker', 'images'].includes(agreement.agreementType)
@@ -59,9 +61,30 @@ module.exports.getAgreements = async (request, h) => {
     return prev
   }, {})
 
-  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber]))
+  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], {details: pack({name: student.fullName, username: student.userName})}))
 
-  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId})
+  const viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId})
 
   return h.view('agreements', viewOptions)
+}
+
+module.exports.getAgreementDetails = async (request, h) => {
+  const yar = request.yar
+  const userId = request.auth.credentials.data.userId
+  const isAdmin = yar.get('isAdmin') || false
+  const mySchools = yar.get('mySchools') || []
+  let myClasses = yar.get('myClasses') || []
+  const userData = unpack(request.params.userData)
+  const agreementId = request.params.agreementID
+
+  logger('info', ['agreements', 'getAgreementDetails', 'userId', userId, 'agreementId', agreementId])
+
+  const agreements = await getAgreement({
+    userId: userId,
+    agreementId: agreementId
+  })
+
+  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData})
+
+  return h.view('agreement-details', viewOptions)
 }
