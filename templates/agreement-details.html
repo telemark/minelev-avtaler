@@ -1,8 +1,10 @@
 <h1>Avtaledetaljer {{userData.name}}</h1>
 
 {{#each agreements}}
-  {{agreementType}}<br />
-  {{status}}<br/>
+  <h2>Avtalepart - {{resolveAgreementPart this}}</h2>
+  <strong>Avtale: </strong>{{agreementType}}<br />
+  <strong>Status: </strong>{{status}}<br/>
+  <h3>Historikk</h3>
   {{#each history}}
     {{tidspunkt}}: {{hendelse}}<br/>
   {{/each}}

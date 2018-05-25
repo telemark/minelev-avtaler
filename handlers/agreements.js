@@ -20,6 +20,17 @@ function getAgreementStatus (agreement) {
   return status
 }
 
+function nameSort (a, b) {
+  let num = 0
+  if (a.lastName < b.lastName) {
+    num = -1
+  }
+  if (a.lastName > b.lastName) {
+    num = 1
+  }
+  return num
+}
+
 module.exports.getAgreements = async (request, h) => {
   const yar = request.yar
   const userId = request.auth.credentials.data.userId
@@ -34,6 +45,8 @@ module.exports.getAgreements = async (request, h) => {
     userId: userId,
     classId: classId
   })
+
+  students.sort(nameSort)
 
   const agreements = await getAgreements({
     userId: userId,
