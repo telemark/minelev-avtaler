@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=10.1.0"
+    "node": ">=10.2.1"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -53,7 +53,7 @@
     ],
     "type": "npm",
     "engines": {
-      "node": "10.1.0"
+      "node": "10.2.1"
     },
     "dotenv": "production.env"
   },
