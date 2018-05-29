@@ -85,14 +85,14 @@ a:hover > i.material-icons  {
     visibility: hidden !important;
 }
 
-.text-unknown {
-    color: yellow;
+a > i.material-icons.text-unknown {
+    color: #ffd520;
 }
 
-.text-success {
+a > i.material-icons.text-success {
     color: green;
 }
 
-.text-warning {
-    color: red;
+a > i.material-icons.text-warning {
+    color: #e30438;
 }

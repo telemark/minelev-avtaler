@@ -6,4 +6,4 @@ const translateStatus = {
   unsigned: '<i class="text-unknown material-icons">error</i> Usignert'
 }
 
-module.exports = input => !input ? '<i class="material-icons">contact_support</i> Ukjent' : translateStatus(input.status)
+module.exports = input => !input ? '<i class="text-unknown material-icons">contact_support</i> Ukjent' : translateStatus[input.status]
