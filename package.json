@@ -69,7 +69,7 @@
     "axios": "0.18.0",
     "dotenv": "5.0.1",
     "handlebars": "4.0.11",
-    "hapi": "17.5.0",
+    "hapi": "17.5.1",
     "hapi-auth-cookie": "9.0.0",
     "inert": "5.1.0",
     "jcb64": "1.1.2",
