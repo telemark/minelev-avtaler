@@ -87,12 +87,18 @@ a:hover > i.material-icons  {
 
 a > i.material-icons.text-unknown {
     color: #ffd520;
+    font-size: 100%;
+    line-height: inherit;
 }
 
 a > i.material-icons.text-success {
     color: green;
+    font-size: 100%;
+    line-height: inherit;
 }
 
 a > i.material-icons.text-warning {
     color: #e30438;
+    font-size: 100%;
+    line-height: inherit;
 }
