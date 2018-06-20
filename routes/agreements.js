@@ -11,6 +11,14 @@ module.exports = [
   },
   {
     method: 'GET',
+    path: '/agreements/download/{classID}',
+    handler: handlers.downloadAgreements,
+    config: {
+      description: 'Download all agreements from a class'
+    }
+  },
+  {
+    method: 'GET',
     path: '/agreements/{userData}/details/{agreementID}',
     handler: handlers.getAgreementDetails,
     config: {
