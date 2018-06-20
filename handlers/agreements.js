@@ -11,14 +11,14 @@ const generateExcelFile = require('../lib/generate-excel-file')
 const isValidAgreement = agreement => ['elevpc', 'boker', 'images'].includes(agreement.agreementType)
 
 function getAgreementStatus (agreement) {
-  let status = 'unknown'
-  if (agreement.signs.includes('expired')) {
+  let status = agreement.signs && agreement.signs.length > 0 ? agreement.signs.join('/') : 'unknown'
+  if (status === 'expired/expired') {
     status = 'expired'
-  } else if (agreement.signs.includes('cancelled')) {
+  } else if (status === 'cancelled/cancelled') {
     status = 'cancelled'
-  } else if (agreement.signs.includes('unsigned')) {
+  } else if (status === 'unsigned/unsigned') {
     status = 'unsigned'
-  } else if (agreement.signs.includes('signed')) {
+  } else if (status === 'signed/signed') {
     status = 'signed'
   }
   return status
