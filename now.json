@@ -1,0 +1,11 @@
+{
+  "name": "minelev-avtaler",
+  "alias": [
+    "avtaler.minelev.no"
+  ],
+  "type": "npm",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dotenv": "production.env"
+}
