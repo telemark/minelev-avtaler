@@ -3,8 +3,7 @@
   <tr>
       <th>Navn</th>
       <th>Elevpc</th>
-      <th>Bøker</th>
-      <th>Bilder</th>
+      <th>Læremidler</th>
   </tr>
   </thead>
   <tbody>
@@ -13,7 +12,6 @@
             <td>{{fullName}}</td>
             <td><a href="/agreements/{{details}}/details/{{resolveAgreementId elevpc}}">{{{resolveAgreementStatus elevpc}}}</a></td>
             <td><a href="/agreements/{{details}}/details/{{resolveAgreementId laeremidler}}">{{{resolveAgreementStatus laeremidler}}}</a></td>
-            <td><a href="/agreements/{{details}}/details/{{resolveAgreementId images}}">{{{resolveAgreementStatus images}}}</a></td>
         </tr>
     {{/each}}
   </tbody>
