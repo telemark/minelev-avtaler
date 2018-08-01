@@ -8,7 +8,7 @@ const getAgreement = require('../lib/get-agreement-details')
 const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
 const generateExcelFile = require('../lib/generate-excel-file')
-const isValidAgreement = agreement => ['elevpc', 'laeremidler', 'images'].includes(agreement.agreementType)
+const isValidAgreement = agreement => ['elevpc', 'laeremidler'].includes(agreement.agreementType)
 
 function getAgreementStatus (agreement) {
   let status = agreement.signs && agreement.signs.length > 0 ? agreement.signs.join('/') : 'unknown'
