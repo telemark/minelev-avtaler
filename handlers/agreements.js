@@ -41,7 +41,6 @@ function filterFields (data) {
     Fornavn: data.firstName,
     'ElevPC': data.elevpc,
     'Læremidler': data.laeremidler,
-    'Bilder': data.images,
     'E-post': data.mail,
     Mobiltelefon: data.mobilePhone
   }
