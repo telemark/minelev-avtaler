@@ -2,56 +2,56 @@
   {
     "id": "BAMVS",
     "name": "Bamble videregående skole",
-    "accessGroup": "TFK-TG-MinElev-BAMVS"
+    "companies": ["bamblevgsavdgrasmyr", "bamblevgs.avd.croftholmen", "bamblevgs.avd.grasmyr", "bamblevideregaendeskole"]
   },
   {
     "id": "BOEVS",
     "name": "Bø vidaregåande skule",
-    "accessGroup": "TFK-TG-MinElev-BOEVS"
+    "companies": ["bovidaregaandeskule"]
   },
   {
     "id": "DALVS",
     "name": "Vest-Telemark vidaregåande skule",
-    "accessGroup": "TFK-TG-MinElev-DALVS"
+    "companies": ["vest-telemarkvgs.avd.dalen", "vest-telem.vgs.avd.seljord"]
   },
   {
     "id": "KLOVS",
     "name": "Hjalmar Johansen videregående skole",
-    "accessGroup": "TFK-TG-MinElev-KLOVS"
+    "companies": ["hjalmarjohansenvgs", "klosterskogenvgs"]
   },
   {
     "id": "KRAVS",
     "name": "Kragerø videregående skole",
-    "accessGroup": "TFK-TG-MinElev-KRAVS"
+    "companies": ["kragerovgs", "kragerovideregaendeskole"]
   },
   {
     "id": "NOMVS",
     "name": "Nome videregående skole",
-    "accessGroup": "TFK-TG-MinElev-NOMVS"
+    "companies": ["nomevgs.avd.lunde", "nomevgs.avd.sove", "nomevideregaendeskole"]
   },
   {
     "id": "NOTVS",
     "name": "Notodden videregående skole",
-    "accessGroup": "TFK-TG-MinElev-NOTVS"
+    "companies": ["notoddenvgs", "notoddenvideregaendeskole"]
   },
   {
     "id": "RJUVS",
     "name": "Rjukan videregående skole",
-    "accessGroup": "TFK-TG-MinElev-RJUVS"
+    "companies": ["rjukanvideregaendeskole"]
   },
   {
     "id": "SKIVS",
     "name": "Skien videregående skole",
-    "accessGroup": "TFK-TG-MinElev-SKIVS"
+    "companies": ["brekkebyvgs", "brekkebyvideregaendeskole", "skienvgs", "skienvideregaendeskole"]
   },
   {
     "id": "SKOVS",
     "name": "Skogmo videregående skole",
-    "accessGroup": "TFK-TG-MinElev-SKOVS"
+    "companies": ["skogmovideregaendeskole"]
   },
   {
     "id": "PORVS",
     "name": "Porsgrunn videregående skole",
-    "accessGroup": "TFK-TG-MinElev-PORVS"
+    "companies": ["porsgrunnvgs", "porsgrunnvideregaendeskole"]
   }
 ]
