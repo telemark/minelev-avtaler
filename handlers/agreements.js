@@ -12,14 +12,16 @@ const isValidAgreement = agreement => ['elevpc', 'laeremidler'].includes(agreeme
 
 function getAgreementStatus (agreement) {
   let status = agreement.signs && agreement.signs.length > 0 ? agreement.signs.join('/') : 'unknown'
-  if (status === 'expired/expired') {
+  if (status === 'expired/expired' || status === 'expired') {
     status = 'expired'
-  } else if (status === 'cancelled/cancelled') {
+  } else if (status === 'cancelled/cancelled' || status === 'cancelled') {
     status = 'cancelled'
-  } else if (status === 'unsigned/unsigned') {
+  } else if (status === 'unsigned/unsigned' || status === 'unsigned') {
     status = 'unsigned'
-  } else if (status === 'signed/signed') {
+  } else if (status === 'signed/signed' || status === 'signed') {
     status = 'signed'
+  } else if (status === 'exception/exception' || status === 'exception') {
+    status = 'exception'
   }
   return status
 }
