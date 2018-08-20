@@ -1,4 +1,6 @@
 const { pack, unpack } = require('jcb64')
+const getAge = require('get-age')
+const dateFromPersonalId = require('birthdate-from-id')
 const uuid = require('uuid/v4')
 const os = require('os')
 const fs = require('fs')
@@ -32,6 +34,17 @@ function nameSort (a, b) {
     num = -1
   }
   if (a.lastName > b.lastName) {
+    num = 1
+  }
+  return num
+}
+
+function ageSort (a, b) {
+  let num = 0
+  if (getAge(dateFromPersonalId(a.partUserId)) < getAge(dateFromPersonalId(b.partUserId))) {
+    num = -1
+  }
+  if (getAge(dateFromPersonalId(a.partUserId)) > getAge(dateFromPersonalId(b.partUserId))) {
     num = 1
   }
   return num
@@ -73,6 +86,7 @@ module.exports.downloadAgreements = async (request, h) => {
       prev[current.agreementId] = Object.assign({}, current, {parts: []})
     }
     prev[current.agreementId].parts.push(current)
+    prev[current.agreementId].parts.sort(ageSort)
     return prev
   }, {})
 
@@ -133,6 +147,7 @@ module.exports.getAgreements = async (request, h) => {
       prev[current.agreementId] = Object.assign({}, current, {parts: []})
     }
     prev[current.agreementId].parts.push(current)
+    prev[current.agreementId].parts.sort(ageSort)
     return prev
   }, {})
 

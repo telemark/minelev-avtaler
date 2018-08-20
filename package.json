@@ -53,7 +53,9 @@
   },
   "dependencies": {
     "axios": "0.18.0",
+    "birthdate-from-id": "2.0.0",
     "dotenv": "6.0.0",
+    "get-age": "1.0.1",
     "handlebars": "4.0.11",
     "hapi": "17.5.3",
     "hapi-auth-cookie": "9.0.0",
