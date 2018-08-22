@@ -24,6 +24,8 @@ function getAgreementStatus (agreement) {
     status = 'signed'
   } else if (status === 'exception/exception' || status === 'exception') {
     status = 'exception'
+  } else if (status === 'manual/manual' || status === 'manual') {
+    status = 'manual'
   }
   return status
 }
