@@ -28,10 +28,10 @@ const yarOptions = {
 }
 
 const plugins = [
-  {plugin: require('hapi-auth-cookie')},
-  {plugin: require('vision')},
-  {plugin: require('inert')},
-  {plugin: require('yar'), options: yarOptions}
+  { plugin: require('hapi-auth-cookie') },
+  { plugin: require('vision') },
+  { plugin: require('inert') },
+  { plugin: require('yar'), options: yarOptions }
 ]
 
 // Start the server

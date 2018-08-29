@@ -85,14 +85,14 @@ module.exports.downloadAgreements = async (request, h) => {
 
   const groupedAgreements = agreements.reduce((prev, current) => {
     if (!prev.hasOwnProperty(current.agreementId)) {
-      prev[current.agreementId] = Object.assign({}, current, {parts: []})
+      prev[current.agreementId] = Object.assign({}, current, { parts: [] })
     }
     prev[current.agreementId].parts.push(current)
     prev[current.agreementId].parts.sort(ageSort)
     return prev
   }, {})
 
-  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, {signs: agreement.parts.map(a => a.status)})).filter(isValidAgreement)
+  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
   const repackedAgreements = validAgreements.reduce((prev, curr) => {
     if (!prev.hasOwnProperty(curr.agreementUserId)) {
@@ -104,7 +104,7 @@ module.exports.downloadAgreements = async (request, h) => {
 
   const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber])).map(filterFields)
 
-  await generateExcelFile({filename: filename, data: repackedStudents})
+  await generateExcelFile({ filename: filename, data: repackedStudents })
   const excel = fs.readFileSync(filename)
 
   request.raw.req.once('end', () => {
@@ -146,14 +146,14 @@ module.exports.getAgreements = async (request, h) => {
 
   const groupedAgreements = agreements.reduce((prev, current) => {
     if (!prev.hasOwnProperty(current.agreementId)) {
-      prev[current.agreementId] = Object.assign({}, current, {parts: []})
+      prev[current.agreementId] = Object.assign({}, current, { parts: [] })
     }
     prev[current.agreementId].parts.push(current)
     prev[current.agreementId].parts.sort(ageSort)
     return prev
   }, {})
 
-  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, {signs: agreement.parts.map(a => a.status)})).filter(isValidAgreement)
+  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
   const repackedAgreements = validAgreements.reduce((prev, curr) => {
     if (!prev.hasOwnProperty(curr.agreementUserId)) {
@@ -166,9 +166,9 @@ module.exports.getAgreements = async (request, h) => {
     return prev
   }, {})
 
-  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], {details: pack({name: student.fullName, username: student.userName})}))
+  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName }) }))
 
-  const viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId})
+  const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId })
 
   return h.view('agreements', viewOptions)
 }
@@ -189,7 +189,7 @@ module.exports.getAgreementDetails = async (request, h) => {
     agreementId: agreementId
   })
 
-  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData})
+  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData })
 
   return h.view('agreement-details', viewOptions)
 }

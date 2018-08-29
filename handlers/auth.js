@@ -18,7 +18,7 @@ module.exports.doSignIn = async (request, h) => {
       yar.set('mySchools', user.mySchools)
       yar.set('myClasses', [])
 
-      request.cookieAuth.set({data: user, token: token})
+      request.cookieAuth.set({ data: user, token: token })
 
       if (nextPath && nextPath.length > 0) {
         return h.redirect(nextPath)

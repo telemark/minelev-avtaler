@@ -12,7 +12,7 @@ module.exports.getFrontpage = async (request, h) => {
     logger('info', ['index', 'getFrontpage', 'no schools', 'userId', userId])
   }
 
-  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin})
+  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin })
 
   return h.view('index', viewOptions)
 }
@@ -28,7 +28,7 @@ module.exports.getHelppage = async (request, h) => {
     logger('info', ['index', 'getHelppage', 'no schools', 'userId', userId])
   }
 
-  let viewOptions = createViewOptions({credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin})
+  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin })
 
   return h.view('help', viewOptions)
 }
