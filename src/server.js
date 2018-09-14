@@ -44,7 +44,7 @@ async function start () {
       path: '/public/{param*}',
       handler: {
         directory: {
-          path: 'public'
+          path: 'src/public'
         }
       }
     })
