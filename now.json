@@ -3,9 +3,6 @@
   "alias": [
     "avtaler.minelev.no"
   ],
-  "type": "docker",
-  "dotenv": "production.env",
-  "features": {
-    "cloud": "v2"
-  }
+  "type": "npm",
+  "dotenv": "production.env"
 }
