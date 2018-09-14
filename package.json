@@ -9,7 +9,7 @@
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
-  "main": "index.js",
+  "main": "src/server.js",
   "engines": {
     "node": ">=10.10.0"
   },
@@ -20,7 +20,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "deploy": "npm test && now && now alias",
-    "start": "node server.js",
+    "start": "node src/server.js",
     "dev": "NODE_ENV=development node server.js",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
