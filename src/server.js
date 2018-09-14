@@ -7,7 +7,6 @@ const config = require('./config')
 
 // Create a server with a host and port
 const server = Hapi.server({
-  host: 'localhost',
   port: 8000
 })
 
@@ -36,48 +35,43 @@ const plugins = [
 
 // Start the server
 async function start () {
-  try {
-    await server.register(plugins)
+  await server.register(plugins)
 
-    server.route({
-      method: 'GET',
-      path: '/public/{param*}',
-      handler: {
-        directory: {
-          path: 'src/public'
-        }
+  server.route({
+    method: 'GET',
+    path: '/public/{param*}',
+    handler: {
+      directory: {
+        path: 'src/public'
       }
-    })
-    server.views({
-      engines: {
-        html: require('handlebars')
-      },
-      relativeTo: __dirname,
-      path: 'templates',
-      layout: true,
-      layoutPath: 'templates/layouts',
-      helpersPath: 'templates/helpers',
-      partialsPath: 'templates/partials'
-    })
+    }
+  })
 
-    server.auth.strategy('session', 'cookie', {
-      password: config.COOKIE_SECRET,
-      cookie: 'minelev-avtaler-session',
-      redirectTo: `${config.AUTH_SERVICE_URL}/login?origin=${config.ORIGIN_URL}`,
-      appendNext: 'nextPath',
-      isSecure: process.env.NODE_ENV !== 'development',
-      isSameSite: 'Lax'
-    })
+  server.views({
+    engines: {
+      html: require('handlebars')
+    },
+    relativeTo: __dirname,
+    path: 'templates',
+    layout: true,
+    layoutPath: 'templates/layouts',
+    helpersPath: 'templates/helpers',
+    partialsPath: 'templates/partials'
+  })
 
-    server.auth.default('session')
+  server.auth.strategy('session', 'cookie', {
+    password: config.COOKIE_SECRET,
+    cookie: 'minelev-avtaler-session',
+    redirectTo: `${config.AUTH_SERVICE_URL}/login?origin=${config.ORIGIN_URL}`,
+    appendNext: 'nextPath',
+    isSecure: process.env.NODE_ENV !== 'development',
+    isSameSite: 'Lax'
+  })
 
-    await server.start()
-  } catch (error) {
-    console.error(error)
-    process.exit(1)
-  }
+  server.auth.default('session')
 
+  await server.start()
   console.log('Server running at: ', server.info.uri)
 }
 
-start()
+start().catch(console.error)
