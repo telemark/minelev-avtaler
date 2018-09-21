@@ -1,27 +1,19 @@
+const getMyClasses = require('../lib/get-my-classes')
 const logger = require('../lib/logger')
-const resolveClasses = require('../lib/resolve-classes')
 const createViewOptions = require('../lib/create-view-options')
 
 module.exports.getClasses = async (request, h) => {
-  const yar = request.yar
   const userId = request.auth.credentials.data.userId
   const isAdmin = request.auth.credentials.data.isAdmin || false
   const mySchools = request.auth.credentials.data.mySchools || []
-  let myClasses = request.auth.credentials.data.myClasses || []
+  const myClasses = getMyClasses(mySchools)
   const schoolId = request.params.schoolID
+  const mySchoolIds = mySchools.map(school => school.id)
+  const selectedClasses = myClasses.filter(c => mySchoolIds.includes(c.schoolId))
 
-  if (myClasses.length === 0) {
-    logger('info', ['classes', 'getClasses', 'looking up classes', 'schoolId', schoolId, 'userId', userId])
-    const selectedClasses = await resolveClasses({ id: userId, schoolId: schoolId })
-    const mySchoolIds = mySchools.map(school => school.id)
-    myClasses = selectedClasses.filter(c => mySchoolIds.includes(c.schoolId))
-    logger('info', ['classes', 'getClasses', 'looking up classes', 'schoolId', schoolId, 'userId', userId, 'number of classes', myClasses.length])
-    yar.set('myClasses', myClasses)
-  } else {
-    logger('info', ['classes', 'getClasses', 'got classes', 'schoolId', schoolId, 'userId', userId])
-  }
+  logger('info', ['classes', 'getClasses', 'got classes', selectedClasses.length, 'schoolId', schoolId, 'userId', userId])
 
-  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin })
+  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: selectedClasses, isAdmin: isAdmin })
 
   return h.view('classes', viewOptions)
 }
