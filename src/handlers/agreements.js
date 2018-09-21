@@ -125,8 +125,8 @@ module.exports.downloadAgreements = async (request, h) => {
 module.exports.getAgreements = async (request, h) => {
   const yar = request.yar
   const userId = request.auth.credentials.data.userId
-  const isAdmin = yar.get('isAdmin') || false
-  const mySchools = yar.get('mySchools') || []
+  const isAdmin = request.auth.credentials.data.isAdmin || false
+  const mySchools = request.auth.credentials.data.mySchools || []
   let myClasses = yar.get('myClasses') || []
   const classId = request.params.classID
 
@@ -176,8 +176,8 @@ module.exports.getAgreements = async (request, h) => {
 module.exports.getAgreementDetails = async (request, h) => {
   const yar = request.yar
   const userId = request.auth.credentials.data.userId
-  const isAdmin = yar.get('isAdmin') || false
-  const mySchools = yar.get('mySchools') || []
+  const isAdmin = request.auth.credentials.data.isAdmin || false
+  const mySchools = request.auth.credentials.data.mySchools || []
   let myClasses = yar.get('myClasses') || []
   const userData = unpack(request.params.userData)
   const agreementId = request.params.agreementID
