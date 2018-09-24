@@ -4,6 +4,7 @@ const dateFromPersonalId = require('birthdate-from-id')
 const uuid = require('uuid/v4')
 const os = require('os')
 const fs = require('fs')
+const getMyClasses = require('../lib/get-my-classes')
 const getStudents = require('../lib/get-students-in-class')
 const getAgreements = require('../lib/get-agreements-for-students')
 const getAgreement = require('../lib/get-agreement-details')
@@ -65,112 +66,129 @@ function filterFields (data) {
 
 module.exports.downloadAgreements = async (request, h) => {
   const userId = request.auth.credentials.data.userId
+  const mySchools = request.auth.credentials.data.mySchools || []
+  const myClasses = getMyClasses(mySchools)
+  const myClassIds = myClasses.map(c => c.id)
   const classId = request.params.classID
   const uniqueName = `${classId}-${uuid()}.xlsx`
   const filename = `${os.tmpdir()}/${uniqueName}`
 
   logger('info', ['agreements', 'downloadAgreements', 'classId', classId, 'userId', userId])
 
-  const students = await getStudents({
-    userId: userId,
-    classId: classId
-  })
+  if (myClassIds.includes(classId)) {
+    const students = await getStudents({
+      userId: userId,
+      classId: classId
+    })
 
-  students.sort(nameSort)
+    students.sort(nameSort)
 
-  const agreements = await getAgreements({
-    userId: userId,
-    students: students
-  })
+    const agreements = await getAgreements({
+      userId: userId,
+      students: students
+    })
 
-  const groupedAgreements = agreements.reduce((prev, current) => {
-    if (!prev.hasOwnProperty(current.agreementId)) {
-      prev[current.agreementId] = Object.assign({}, current, { parts: [] })
-    }
-    prev[current.agreementId].parts.push(current)
-    prev[current.agreementId].parts.sort(ageSort)
-    return prev
-  }, {})
+    const groupedAgreements = agreements.reduce((prev, current) => {
+      if (!prev.hasOwnProperty(current.agreementId)) {
+        prev[current.agreementId] = Object.assign({}, current, { parts: [] })
+      }
+      prev[current.agreementId].parts.push(current)
+      prev[current.agreementId].parts.sort(ageSort)
+      return prev
+    }, {})
 
-  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
+    const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
-  const repackedAgreements = validAgreements.reduce((prev, curr) => {
-    if (!prev.hasOwnProperty(curr.agreementUserId)) {
-      prev[curr.agreementUserId] = {}
-    }
-    prev[curr.agreementUserId][curr.agreementType] = getAgreementStatus(curr)
-    return prev
-  }, {})
+    const repackedAgreements = validAgreements.reduce((prev, curr) => {
+      if (!prev.hasOwnProperty(curr.agreementUserId)) {
+        prev[curr.agreementUserId] = {}
+      }
+      prev[curr.agreementUserId][curr.agreementType] = getAgreementStatus(curr)
+      return prev
+    }, {})
 
-  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber])).map(filterFields)
+    const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber])).map(filterFields)
 
-  await generateExcelFile({ filename: filename, data: repackedStudents })
-  const excel = fs.readFileSync(filename)
+    await generateExcelFile({ filename: filename, data: repackedStudents })
+    const excel = fs.readFileSync(filename)
 
-  request.raw.req.once('end', () => {
-    logger('info', ['agreements', 'downloadAgreements', 'user', userId, uniqueName, 'success'])
-    try {
-      fs.unlinkSync(filename)
-      logger('info', ['agreements', 'downloadAgreements', 'user', userId, uniqueName, 'cleanup finished'])
-    } catch (error) {
-      logger('error', ['agreements', 'downloadAgreements', 'user', userId, 'unlink', error])
-    }
-  })
+    request.raw.req.once('end', () => {
+      logger('info', ['agreements', 'downloadAgreements', 'user', userId, uniqueName, 'success'])
+      try {
+        fs.unlinkSync(filename)
+        logger('info', ['agreements', 'downloadAgreements', 'user', userId, uniqueName, 'cleanup finished'])
+      } catch (error) {
+        logger('error', ['agreements', 'downloadAgreements', 'user', userId, 'unlink', error])
+      }
+    })
 
-  return h.response(excel)
-    .header('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
-    .header('Content-Disposition', 'attachment; filename=' + uniqueName)
+    return h.response(excel)
+      .header('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+      .header('Content-Disposition', 'attachment; filename=' + uniqueName)
+  } else {
+    logger('warn', ['agreements', 'getAgreements', 'classId', classId, 'userId', userId, 'classId not valid'])
+    return h.response('Klasse ikke funnet. Har du tilgang?')
+      .code(404)
+  }
 }
 
 module.exports.getAgreements = async (request, h) => {
-  const yar = request.yar
   const userId = request.auth.credentials.data.userId
   const isAdmin = request.auth.credentials.data.isAdmin || false
   const mySchools = request.auth.credentials.data.mySchools || []
-  let myClasses = yar.get('myClasses') || []
+  const myClasses = getMyClasses(mySchools)
+  const myClassIds = myClasses.map(c => c.id)
   const classId = request.params.classID
 
   logger('info', ['agreements', 'getAgreements', 'classId', classId, 'userId', userId])
 
-  const students = await getStudents({
-    userId: userId,
-    classId: classId
-  })
+  if (myClassIds.includes(classId)) {
+    logger('info', ['agreements', 'getAgreements', 'classId', classId, 'userId', userId, 'classId is valid'])
+    const students = await getStudents({
+      userId: userId,
+      classId: classId
+    })
 
-  students.sort(nameSort)
+    students.sort(nameSort)
 
-  const agreements = await getAgreements({
-    userId: userId,
-    students: students
-  })
+    const agreements = await getAgreements({
+      userId: userId,
+      students: students
+    })
 
-  const groupedAgreements = agreements.reduce((prev, current) => {
-    if (!prev.hasOwnProperty(current.agreementId)) {
-      prev[current.agreementId] = Object.assign({}, current, { parts: [] })
-    }
-    prev[current.agreementId].parts.push(current)
-    prev[current.agreementId].parts.sort(ageSort)
-    return prev
-  }, {})
+    const groupedAgreements = agreements.reduce((prev, current) => {
+      if (!prev.hasOwnProperty(current.agreementId)) {
+        prev[current.agreementId] = Object.assign({}, current, { parts: [] })
+      }
+      prev[current.agreementId].parts.push(current)
+      prev[current.agreementId].parts.sort(ageSort)
+      return prev
+    }, {})
 
-  const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
+    const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
-  const repackedAgreements = validAgreements.reduce((prev, curr) => {
-    if (!prev.hasOwnProperty(curr.agreementUserId)) {
-      prev[curr.agreementUserId] = {}
-    }
-    prev[curr.agreementUserId][curr.agreementType] = {
-      agreementId: curr.agreementId,
-      status: getAgreementStatus(curr)
-    }
-    return prev
-  }, {})
+    const repackedAgreements = validAgreements.reduce((prev, curr) => {
+      if (!prev.hasOwnProperty(curr.agreementUserId)) {
+        prev[curr.agreementUserId] = {}
+      }
+      prev[curr.agreementUserId][curr.agreementType] = {
+        agreementId: curr.agreementId,
+        status: getAgreementStatus(curr)
+      }
+      return prev
+    }, {})
 
-  const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName }) }))
+    const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName }) }))
 
-  const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId })
+    const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId })
 
-  return h.view('agreements', viewOptions)
+    return h.view('agreements', viewOptions)
+  } else {
+    logger('warn', ['agreements', 'getAgreements', 'classId', classId, 'userId', userId, 'classId not valid'])
+    const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: [], classID: classId })
+
+    return h.view('agreements', viewOptions)
+  }
 }
 
 module.exports.getAgreementDetails = async (request, h) => {
