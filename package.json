@@ -54,7 +54,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "birthdate-from-id": "2.0.0",
-    "dotenv": "6.0.0",
+    "dotenv": "6.1.0",
     "get-age": "1.0.1",
     "handlebars": "4.0.12",
     "hapi": "17.6.0",
