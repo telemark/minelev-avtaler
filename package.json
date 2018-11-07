@@ -59,7 +59,7 @@
     "handlebars": "4.0.12",
     "hapi": "17.6.0",
     "hapi-auth-cookie": "9.0.0",
-    "inert": "5.1.1",
+    "inert": "5.1.2",
     "jcb64": "1.1.4",
     "jsonwebtoken": "8.3.0",
     "simple-encryptor": "2.0.0",
