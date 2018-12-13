@@ -63,7 +63,7 @@
     "jcb64": "1.1.5",
     "jsonwebtoken": "8.4.0",
     "simple-encryptor": "2.0.0",
-    "tfk-json-to-xlsx": "1.0.11",
+    "tfk-json-to-xlsx": "2.0.0",
     "tfk-schools-info": "2.1.4",
     "uuid": "3.3.2",
     "vision": "5.4.3",
