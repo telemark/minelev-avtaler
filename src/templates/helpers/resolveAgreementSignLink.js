@@ -6,6 +6,8 @@ module.exports = agreement => {
     message = 'oppdraget er allerede signert'
   } else if (agreement.requireDigitalSignature === false) {
     message = 'Oppdraget skal ikke signeres'
+  } else if (agreement.agreementType === 'images') {
+    message = 'Be eleven logge seg inn på https://meg.minelev.no'
   }
   return message
 }

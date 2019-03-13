@@ -224,14 +224,25 @@ module.exports.getAgreementDetails = async (request, h) => {
   const mySchools = request.auth.credentials.data.mySchools || []
   let myClasses = yar.get('myClasses') || []
   const userData = unpack(request.params.userData)
-  const agreementId = request.params.agreementID
+  const samtykkeId = request.params.agreementID
+  const { isImage } = request.query
 
-  logger('info', ['agreements', 'getAgreementDetails', 'userId', userId, 'agreementId', agreementId])
+  logger('info', ['agreements', 'getAgreementDetails', 'userId', userId, 'samtykkeId', samtykkeId])
 
-  const agreements = await getAgreement({
-    userId: userId,
-    agreementId: agreementId
-  })
+  let agreements = []
+
+  if (isImage) {
+    agreements = await getSamtykker({
+      userId: userId,
+      students: [{ userName: userData.username }]
+    })
+    agreements = agreements.filter(agreement => agreement.agreementId === samtykkeId)
+  } else {
+    agreements = await getAgreement({
+      userId: userId,
+      agreementId: samtykkeId
+    })
+  }
 
   let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData })
 
