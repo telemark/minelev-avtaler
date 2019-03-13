@@ -21,8 +21,10 @@ module.exports.doSignIn = async (request, h) => {
       request.cookieAuth.set({ data: user, token: token })
 
       if (nextPath && nextPath.length > 0) {
+        logger('info', ['auth', 'doSignIn', 'userId', user.userId, 'redirect to', nextPath])
         return h.redirect(nextPath)
       } else {
+        logger('info', ['auth', 'doSignIn', 'userId', user.userId, 'redirect to frontpage'])
         return h.redirect('/')
       }
     } catch (error) {
