@@ -16,6 +16,8 @@ module.exports = {
   AVTALE_SERVICE_SECRET: process.env.AVTALE_SERVICE_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   USER_SERVICE_URL: process.env.USER_SERVICE_URL || 'https://auth.demo.t-fk.win/lookup',
   ACCESS_GROUP: process.env.ACCESS_GROUP || 'TFK-TG-MinElevLeder',
+  SAMTYKKER_SERVICE_URL: process.env.SAMTYKKER_SERVICE_URL,
+  SAMTYKKER_SERVICE_SECRET: process.env.SAMTYKKER_SERVICE_SECRET,
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'minelev-avtaler',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
   PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
