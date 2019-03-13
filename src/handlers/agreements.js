@@ -7,6 +7,7 @@ const fs = require('fs')
 const getMyClasses = require('../lib/get-my-classes')
 const getStudents = require('../lib/get-students-in-class')
 const getAgreements = require('../lib/get-agreements-for-students')
+const getSamtykker = require('../lib/get-samtykker-for-students')
 const getAgreement = require('../lib/get-agreement-details')
 const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
@@ -59,6 +60,7 @@ function filterFields (data) {
     Fornavn: data.firstName,
     'ElevPC': data.elevpc,
     'Læremidler': data.laeremidler,
+    'Bilder': data.images,
     'E-post': data.mail,
     Mobiltelefon: data.mobilePhone
   }
@@ -83,10 +85,22 @@ module.exports.downloadAgreements = async (request, h) => {
 
     students.sort(nameSort)
 
-    const agreements = await getAgreements({
-      userId: userId,
-      students: students
-    })
+    // Retrieves agreements and samtykker
+    let [agreements, samtykker] = await Promise.all([
+      getAgreements({
+        userId: userId,
+        students: students
+      }),
+      getSamtykker({
+        userId: userId,
+        students: students
+      })
+    ])
+
+    // Filters images from agreements and concats with samtykker (basically images)
+    agreements = agreements
+      .filter(agreement => agreement.agreementType !== 'images')
+      .concat(samtykker)
 
     const groupedAgreements = agreements.reduce((prev, current) => {
       if (!prev.hasOwnProperty(current.agreementId)) {
@@ -151,10 +165,22 @@ module.exports.getAgreements = async (request, h) => {
 
     students.sort(nameSort)
 
-    const agreements = await getAgreements({
-      userId: userId,
-      students: students
-    })
+    // Retrieves agreements and samtykker
+    let [agreements, samtykker] = await Promise.all([
+      getAgreements({
+        userId: userId,
+        students: students
+      }),
+      getSamtykker({
+        userId: userId,
+        students: students
+      })
+    ])
+
+    // Filters images from agreements and concats with samtykker (basically images)
+    agreements = agreements
+      .filter(agreement => agreement.agreementType !== 'images')
+      .concat(samtykker)
 
     const groupedAgreements = agreements.reduce((prev, current) => {
       if (!prev.hasOwnProperty(current.agreementId)) {
