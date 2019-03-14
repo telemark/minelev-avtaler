@@ -7,6 +7,6 @@
   "type": "docker",
   "dotenv": "production.env",
   "features": {
-    "cloud": "v2"
+    "cloud": "v1"
   }
 }
