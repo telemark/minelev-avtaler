@@ -64,7 +64,7 @@
     "jsonwebtoken": "8.5.1",
     "simple-encryptor": "2.0.0",
     "tfk-json-to-xlsx": "2.0.0",
-    "tfk-schools-info": "2.1.4",
+    "tfk-schools-info": "2.1.5",
     "uuid": "3.3.2",
     "vision": "5.4.4",
     "winston": "2.4.4",
