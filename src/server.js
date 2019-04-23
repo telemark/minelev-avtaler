@@ -1,4 +1,4 @@
-const Hapi = require('hapi')
+const Hapi = require('@hapi/hapi')
 const routes = require('./routes')
 const authRoutes = require('./routes/auth')
 const classRoutes = require('./routes/classes')
@@ -28,8 +28,8 @@ const yarOptions = {
 
 const plugins = [
   { plugin: require('hapi-auth-cookie') },
-  { plugin: require('vision') },
-  { plugin: require('inert') },
+  { plugin: require('@hapi/vision') },
+  { plugin: require('@hapi/inert') },
   { plugin: require('yar'), options: yarOptions }
 ]
 
