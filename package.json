@@ -63,7 +63,7 @@
     "hapi-auth-cookie": "10.0.0",
     "jcb64": "1.1.7",
     "jsonwebtoken": "8.5.1",
-    "simple-encryptor": "2.0.0",
+    "simple-encryptor": "3.0.0",
     "tfk-json-to-xlsx": "2.0.0",
     "tfk-schools-info": "2.1.5",
     "uuid": "3.3.2",
