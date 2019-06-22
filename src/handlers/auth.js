@@ -29,11 +29,11 @@ module.exports.doSignIn = async (request, h) => {
       }
     } catch (error) {
       logger('error', ['auth', 'doSignIn', 'error', error])
-      return h(error)
+      throw error
     }
   } else {
     logger('error', ['auth', 'doSignIn', 'invalid token'])
-    return h(new Error('Invalid token'))
+    throw new Error('Invalid token')
   }
 }
 
