@@ -66,7 +66,7 @@ async function start () {
       isSecure: process.env.NODE_ENV !== 'development',
       isSameSite: 'Lax'
     },
-    redirectTo: `${config.AUTH_SERVICE_URL}/login?origin=${config.ORIGIN_URL}`,
+    redirectTo: process.env.NODE_ENV !== 'development' ? `${config.AUTH_SERVICE_URL}/login?origin=${config.ORIGIN_URL}` : '/signin',
     appendNext: 'nextPath'
   })
 

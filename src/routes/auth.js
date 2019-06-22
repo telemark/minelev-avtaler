@@ -1,4 +1,4 @@
-const handlers = require('../handlers/auth')
+const handlers = require(process.env.NODE_ENV !== 'development' ? '../handlers/auth' : '../handlers/auth-dev')
 
 module.exports = [
   {
