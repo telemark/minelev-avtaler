@@ -9,20 +9,42 @@ module.exports = options => {
       secret: config.AVTALE_SERVICE_SECRET,
       userId: options.userId
     })
-    const url = `${config.AVTALE_SERVICE_URL}/agreements/search`
+    const url = `${config.AVTALE_SERVICE_URL}`
     axios.defaults.headers.common['Authorization'] = token
     logger('info', ['get-agreements-for-students', 'userId', options.userId, 'students', options.students.length, 'start'])
     if (options.students.length > 0) {
       const ids = options.students.map(student => student.personalIdNumber)
       const payload = {
-        'agreementUserId': {
-          '$in': ids
-        }
+        uids: ids,
+        type: config.AVTALE_SERVICE_TYPE
       }
       try {
         const { data } = await axios.post(url, payload)
         logger('info', ['get-agreements-for-students', 'userId', options.userId, 'success', 'agreements', data.length])
-        resolve(data)
+        const result = data.reduce((acc, current) => {
+          const agreement = {
+            status: current.isSigned ? 'signed' : 'unknown',
+            agreementId: current.aid,
+            agreementType: current.type,
+            partUserId: current.uid,
+            agreementUserId: current.uid
+          }
+          acc.push(agreement)
+          if (current.parts.length > 0) {
+            current.parts.map(part => {
+              const agreement = {
+                status: part.isSigned ? 'signed' : 'unknown',
+                agreementId: current.aid,
+                agreementType: current.type,
+                partUserId: part.uid,
+                agreementUserId: current.uid
+              }
+              acc.push(agreement)
+            })
+          }
+          return acc
+        }, [])
+        resolve(result)
       } catch (error) {
         logger('error', ['get-agreements-for-students', 'userId', options.userId, error])
         reject(error)

@@ -205,7 +205,6 @@ module.exports.getAgreements = async (request, h) => {
     }, {})
 
     const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName }) }))
-
     const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId })
 
     return h.view('agreements', viewOptions)

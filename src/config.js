@@ -14,6 +14,7 @@ module.exports = {
   BUDDY_SERVICE_SECRET: process.env.BUDDY_SERVICE_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   AVTALE_SERVICE_URL: process.env.AVTALE_SERVICE_URL || 'https://avtale.demo.minelev.no',
   AVTALE_SERVICE_SECRET: process.env.AVTALE_SERVICE_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
+  AVTALE_SERVICE_TYPE: process.env.AVTALE_SERVICE_TYPE || 'elevpc',
   USER_SERVICE_URL: process.env.USER_SERVICE_URL || 'https://auth.demo.t-fk.win/lookup',
   ACCESS_GROUP: process.env.ACCESS_GROUP || 'TFK-TG-MinElevLeder',
   SAMTYKKER_SERVICE_URL: process.env.SAMTYKKER_SERVICE_URL,
