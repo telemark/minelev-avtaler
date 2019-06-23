@@ -1,6 +1,6 @@
 module.exports = agreement => {
   let message = 'Finner ikke url for signering. Er dette et manuelt oppdrag?'
-  if (agreement.requireDigitalSignature === true && agreement.status === 'unsigned' && agreement.readStatus !== 'IKKE_LEVERT') {
+  if (agreement.status !== 'signed') {
     message = `https://svarut.ks.no/forsendelse/${agreement.partId}/1/signering`
   } else if (agreement.status === 'signed') {
     message = 'oppdraget er allerede signert'

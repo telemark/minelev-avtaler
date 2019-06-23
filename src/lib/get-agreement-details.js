@@ -9,16 +9,36 @@ module.exports = options => {
       secret: config.AVTALE_SERVICE_SECRET,
       userId: options.userId
     })
-    const url = `${config.AVTALE_SERVICE_URL}/agreements/search`
+    const url = `${config.AVTALE_SERVICE_URL}/agreements/${options.agreementId}`
     axios.defaults.headers.common['Authorization'] = token
     logger('info', ['get-agreement-details', 'userId', options.userId, 'agreementId', options.agreementId, 'start'])
-    const payload = {
-      agreementId: options.agreementId
-    }
     try {
-      const { data } = await axios.post(url, payload)
-      logger('info', ['get-agreement-details', 'userId', options.userId, 'success', 'agreements', data.length])
-      resolve(data)
+      const { data } = await axios.get(url)
+      let results = [
+        {
+          status: data.isSigned ? 'signed' : 'unknown',
+          agreementId: data.aid,
+          partId: data.fid,
+          agreementType: data.type,
+          partUserId: data.uid,
+          agreementUserId: data.uid
+        }
+      ]
+      if (data.parts.length > 0) {
+        data.parts.map(part => {
+          const agreement = {
+            status: part.isSigned ? 'signed' : 'unknown',
+            agreementId: part.aid,
+            agreementType: data.type,
+            partId: part.fid,
+            partUserId: part.uid,
+            agreementUserId: data.uid
+          }
+          results.push(agreement)
+        })
+      }
+      logger('info', ['get-agreement-details', 'userId', options.userId, 'success', 'agreements', results.length])
+      resolve(results)
     } catch (error) {
       logger('error', ['get-agreement-details', 'userId', options.userId, error])
       reject(error)

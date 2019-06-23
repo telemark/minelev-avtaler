@@ -9,7 +9,7 @@ module.exports = options => {
       secret: config.AVTALE_SERVICE_SECRET,
       userId: options.userId
     })
-    const url = `${config.AVTALE_SERVICE_URL}`
+    const url = `${config.AVTALE_SERVICE_URL}/agreements/search`
     axios.defaults.headers.common['Authorization'] = token
     logger('info', ['get-agreements-for-students', 'userId', options.userId, 'students', options.students.length, 'start'])
     if (options.students.length > 0) {

@@ -14,6 +14,19 @@ const createViewOptions = require('../lib/create-view-options')
 const generateExcelFile = require('../lib/generate-excel-file')
 const isValidAgreement = agreement => ['elevpc', 'laeremidler', 'images'].includes(agreement.agreementType)
 
+function fixMultipleSignatures (agreement) {
+  let result = ''
+  if (agreement.signs && agreement.signs.length > 2) {
+    // If any of parents have signed it is valid
+    const parentSigns = agreement.signs.slice(1)
+    const joined = parentSigns.includes('signed') ? 'signed' : 'unknown'
+    result = getAgreementStatus({ signs: [agreement.signs[0], joined] })
+  } else {
+    result = getAgreementStatus(agreement)
+  }
+  return result
+}
+
 function getAgreementStatus (agreement) {
   let status = agreement.signs && agreement.signs.length > 0 ? agreement.signs.join('/') : 'unknown'
   if (status === 'expired/expired' || status === 'expired') {
@@ -117,7 +130,7 @@ module.exports.downloadAgreements = async (request, h) => {
       if (!prev.hasOwnProperty(curr.agreementUserId)) {
         prev[curr.agreementUserId] = {}
       }
-      prev[curr.agreementUserId][curr.agreementType] = getAgreementStatus(curr)
+      prev[curr.agreementUserId][curr.agreementType] = fixMultipleSignatures(curr)
       return prev
     }, {})
 
@@ -199,7 +212,7 @@ module.exports.getAgreements = async (request, h) => {
       }
       prev[curr.agreementUserId][curr.agreementType] = {
         agreementId: curr.agreementId,
-        status: getAgreementStatus(curr)
+        status: fixMultipleSignatures(curr)
       }
       return prev
     }, {})
