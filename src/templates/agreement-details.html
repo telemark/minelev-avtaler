@@ -5,7 +5,7 @@
   <strong>Avtale: </strong>{{agreementType}}<br />
   <strong>Status: </strong>{{status}}<br/>
   <strong>Direktelenke for signering: </strong>{{resolveAgreementSignLink this}}<br />
-  {{{resolveAgreementSigningOverride this}}}
+  {{{resolveAgreementSigningOverride this ..parent}}}
   <h3>Historikk</h3>
   {{#each history}}
     {{tidspunkt}}: {{hendelse}}<br/>

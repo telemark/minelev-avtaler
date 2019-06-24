@@ -10,8 +10,8 @@
     {{#each agreements}}
         <tr>
             <td>{{fullName}}</td>
-            <td><a href="/agreements/{{details}}/details/{{resolveAgreementId elevpc}}">{{{resolveAgreementStatus elevpc}}}</a></td>
-            <td><a href="/agreements/{{details}}/details/{{resolveAgreementId images}}?isImage=True">{{{resolveAgreementConsentStatus images}}}</a></td>
+            <td><a href="/agreements/{{details}}/details/{{resolveAgreementId elevpc}}?classId={{../classID}}">{{{resolveAgreementStatus elevpc}}}</a></td>
+            <td><a href="/agreements/{{details}}/details/{{resolveAgreementId images}}?isImage=True&classId={{../classID}}">{{{resolveAgreementConsentStatus images}}}</a></td>
         </tr>
     {{/each}}
   </tbody>

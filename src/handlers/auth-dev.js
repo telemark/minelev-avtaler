@@ -8,6 +8,7 @@ const logger = require('../lib/logger')
 function buildUser () {
   return {
     userId: process.env.DEMO_USER_ID,
+    userName: process.env.DEMO_USER_NAME,
     company: process.env.DEMO_USER_COMPANY,
     mySchools: resolveSchools({ company: process.env.DEMO_USER_COMPANY })
   }

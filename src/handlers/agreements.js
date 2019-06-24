@@ -9,6 +9,7 @@ const getStudents = require('../lib/get-students-in-class')
 const getAgreements = require('../lib/get-agreements-for-students')
 const getSamtykker = require('../lib/get-samtykker-for-students')
 const getAgreement = require('../lib/get-agreement-details')
+const signAgreement = require('../lib/sign-agreement')
 const logger = require('../lib/logger')
 const createViewOptions = require('../lib/create-view-options')
 const generateExcelFile = require('../lib/generate-excel-file')
@@ -72,7 +73,6 @@ function filterFields (data) {
     Etternavn: data.lastName,
     Fornavn: data.firstName,
     'ElevPC': data.elevpc,
-    'Læremidler': data.laeremidler,
     'Bilder': data.images,
     'E-post': data.mail,
     Mobiltelefon: data.mobilePhone
@@ -237,7 +237,7 @@ module.exports.getAgreementDetails = async (request, h) => {
   let myClasses = yar.get('myClasses') || []
   const userData = unpack(request.params.userData)
   const samtykkeId = request.params.agreementID
-  const { isImage } = request.query
+  const { isImage, classId } = request.query
 
   logger('info', ['agreements', 'getAgreementDetails', 'userId', userId, 'samtykkeId', samtykkeId])
 
@@ -256,7 +256,27 @@ module.exports.getAgreementDetails = async (request, h) => {
     })
   }
 
-  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData })
+  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData, classID: classId })
 
   return h.view('agreement-details', viewOptions)
+}
+
+module.exports.doSignAgreement = async (request, h) => {
+  const userId = request.auth.credentials.data.userId
+  const userName = request.auth.credentials.data.userName
+  const aid = request.params.aid
+  const { classId } = request.query
+  const options = {
+    userId: userId,
+    userName: userName,
+    aid: aid
+  }
+  try {
+    logger('info', ['agreements', 'doSignAgreement', 'userId', userId, 'aid', aid, 'start'])
+    await signAgreement(options)
+    logger('info', ['agreements', 'doSignAgreement', 'userId', userId, 'aid', aid, 'success'])
+  } catch (error) {
+    logger('error', ['agreements', 'doSignAgreement', 'userId', userId, 'aid', aid, error])
+  }
+  return h.redirect(`/agreements/${classId}`)
 }

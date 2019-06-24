@@ -24,5 +24,13 @@ module.exports = [
     config: {
       description: 'Get details for an agreement'
     }
+  },
+  {
+    method: 'GET',
+    path: '/agreements/sign/{aid}',
+    handler: handlers.doSignAgreement,
+    config: {
+      description: 'Sign agreement on behalf of user'
+    }
   }
 ]
