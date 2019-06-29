@@ -12,6 +12,8 @@ Add a `.env` file and configure it for your environment
 ```
 NODE_ENV=development
 ENCRYPTOR_SECRET=secret-for-temporary-storage
+COOKIE_SECRET=cookie-secret-for-this-service
+YAR_SECRET=yar-secret-for-this-service
 JWT_SECRET=secret-for-this-service
 AUTH_SERVICE_URL=url-for-auth-service
 USER_SERVICE_URL=url-for-userservice-lookup
@@ -23,6 +25,9 @@ AVTALE_SERVICE_TYPE=agreement-type
 ACCESS_GROUP=access-group
 SAMTYKKER_SERVICE_URL=consent-service-url
 SAMTYKKER_SERVICE_SECRET=consent-service-secret
+PAPERTRAIL_HOST=your-papertrail-host
+PAPERTRAIL_PORT=your-papertrail-post
+PAPERTRAIL_HOSTNAME=your-papertrail-hostname
 DEV_USER_ID=userid-for-dev-environment
 DEV_USER_NAME=user-name-for-dev-environment
 DEV_USER_COMPANY=company-for-dev-environment
