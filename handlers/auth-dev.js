@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const pkg = require('../../package.json')
+const pkg = require('../package.json')
 const config = require('../config')
 const verifyJwt = require('../lib/verify-jwt')
 const resolveSchools = require('../lib/resolve-schools')
@@ -7,10 +7,10 @@ const logger = require('../lib/logger')
 
 function buildUser () {
   return {
-    userId: process.env.DEMO_USER_ID,
-    userName: process.env.DEMO_USER_NAME,
-    company: process.env.DEMO_USER_COMPANY,
-    mySchools: resolveSchools({ company: process.env.DEMO_USER_COMPANY })
+    userId: process.env.DEV_USER_ID,
+    userName: process.env.DEV_USER_NAME,
+    company: process.env.DEV_USER_COMPANY,
+    mySchools: resolveSchools({ company: process.env.DEV_USER_COMPANY })
   }
 }
 
@@ -18,7 +18,7 @@ function generateToken () {
   const payload = {
     system: pkg.name,
     version: pkg.version,
-    caller: process.env.DEMO_USER_ID
+    caller: process.env.DEV_USER_ID
   }
 
   const options = {

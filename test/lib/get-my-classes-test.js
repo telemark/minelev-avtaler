@@ -1,6 +1,6 @@
 const test = require('ava')
 const { getGroups } = require('tfk-schools-info')
-const getMyClasses = require('../../src/lib/get-my-classes')
+const getMyClasses = require('../../lib/get-my-classes')
 const schoolId = 'SKOVS'
 const mySchools = [
   {
