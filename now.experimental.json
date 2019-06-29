@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "name": "minelev-avtaler",
+  "scope": "minelev",
+  "alias": [
+    "avtaler.minelev.no"
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "WEB_SERVER_PORT": 8000,
+    "ORIGIN_URL": "https://avtaler.minelev.no/signin",
+    "COOKIE_SECRET": "@minelev-cookie-secret",
+    "ENCRYPTOR_SECRET": "@minelev-encryptor-secret",
+    "JWT_SECRET": "@minelev-jwt-secret",
+    "YAR_SECRET": "@minelev-session-secret",
+    "AUTH_SERVICE_URL": "@tfk-auth-service-feide",
+    "USER_SERVICE_URL": "@tfk-me-user-service",
+    "BUDDY_SERVICE_URL": "@minelev-buddy-service-url",
+    "BUDDY_SERVICE_SECRET": "@minelev-jwt-secret",
+    "AVTALE_SERVICE_URL": "@avtale-log-url",
+    "AVTALE_SERVICE_SECRET": "@minelev-avtaler-secret",
+    "AVTALE_SERVICE_TYPE": "elevpc",
+    "SAMTYKKER_SERVICE_URL": "@samtykker-service-url",
+    "SAMTYKKER_SERVICE_SECRET": "@minelev-jwt-secret",
+    "PAPERTRAIL_HOSTNAME": "minelev",
+    "PAPERTRAIL_HOST": "@tfk-papertrail-host",
+    "PAPERTRAIL_PORT": "@tfk-papertrail-port"
+  },
+  "builds": [
+    { "src": "server.js", "use": "@now/node", "config": {
+      "maxLambdaSize": "15mb"
+    } }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/server.js" }
+  ]
+}
