@@ -2,6 +2,7 @@
 
 {{#each agreements}}
   <h2>Avtalepart - {{resolveAgreementPart this}}</h2>
+  <strong>Navn: </strong>{{name}}<br />
   <strong>Avtale: </strong>{{agreementType}}<br />
   <strong>Status: </strong>{{status}}<br/>
   <strong>Direktelenke for signering: </strong>{{resolveAgreementSignLink this}}<br />
