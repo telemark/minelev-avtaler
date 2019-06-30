@@ -35,7 +35,16 @@ DEV_USER_NAME=user-name-for-dev-environment
 DEV_USER_COMPANY=company-for-dev-environment
 ```
 
-## Deploy
+## Deploy to ZEIT/Now
+
+Configure [production.env](production.env) and [now.json](now.json) to match your environment.
+
+Run the deploy script
+
+```
+$ npm run deploy
+```
+
 
 ## License
 
