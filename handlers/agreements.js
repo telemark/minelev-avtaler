@@ -72,8 +72,8 @@ function filterFields (data) {
   return {
     Etternavn: data.lastName,
     Fornavn: data.firstName,
-    'ElevPC': data.elevpc,
-    'Bilder': data.images,
+    ElevPC: data.elevpc,
+    Bilder: data.images,
     'E-post': data.mail,
     Mobiltelefon: data.mobilePhone
   }
@@ -116,7 +116,7 @@ module.exports.downloadAgreements = async (request, h) => {
       .concat(samtykker)
 
     const groupedAgreements = agreements.reduce((prev, current) => {
-      if (!prev.hasOwnProperty(current.agreementId)) {
+      if (!Object.prototype.hasOwnProperty.call(prev, current.agreementId)) {
         prev[current.agreementId] = Object.assign({}, current, { parts: [] })
       }
       prev[current.agreementId].parts.push(current)
@@ -127,7 +127,7 @@ module.exports.downloadAgreements = async (request, h) => {
     const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
     const repackedAgreements = validAgreements.reduce((prev, curr) => {
-      if (!prev.hasOwnProperty(curr.agreementUserId)) {
+      if (!Object.prototype.hasOwnProperty.call(prev, curr.agreementUserId)) {
         prev[curr.agreementUserId] = {}
       }
       prev[curr.agreementUserId][curr.agreementType] = fixMultipleSignatures(curr)
@@ -196,7 +196,7 @@ module.exports.getAgreements = async (request, h) => {
       .concat(samtykker)
 
     const groupedAgreements = agreements.reduce((prev, current) => {
-      if (!prev.hasOwnProperty(current.agreementId)) {
+      if (!Object.prototype.hasOwnProperty.call(prev, current.agreementId)) {
         prev[current.agreementId] = Object.assign({}, current, { parts: [] })
       }
       prev[current.agreementId].parts.push(current)
@@ -207,7 +207,7 @@ module.exports.getAgreements = async (request, h) => {
     const validAgreements = Object.values(groupedAgreements).map(agreement => Object.assign({}, agreement, { signs: agreement.parts.map(a => a.status) })).filter(isValidAgreement)
 
     const repackedAgreements = validAgreements.reduce((prev, curr) => {
-      if (!prev.hasOwnProperty(curr.agreementUserId)) {
+      if (!Object.prototype.hasOwnProperty.call(prev, curr.agreementUserId)) {
         prev[curr.agreementUserId] = {}
       }
       prev[curr.agreementUserId][curr.agreementType] = {
@@ -234,7 +234,7 @@ module.exports.getAgreementDetails = async (request, h) => {
   const userId = request.auth.credentials.data.userId
   const isAdmin = request.auth.credentials.data.isAdmin || false
   const mySchools = request.auth.credentials.data.mySchools || []
-  let myClasses = yar.get('myClasses') || []
+  const myClasses = yar.get('myClasses') || []
   const userData = unpack(request.params.userData)
   const samtykkeId = request.params.agreementID
   const { isImage, classId } = request.query
@@ -256,7 +256,7 @@ module.exports.getAgreementDetails = async (request, h) => {
     })
   }
 
-  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData, classID: classId })
+  const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData, classID: classId })
 
   return h.view('agreement-details', viewOptions)
 }

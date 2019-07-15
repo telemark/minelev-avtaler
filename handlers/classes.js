@@ -13,7 +13,7 @@ module.exports.getClasses = async (request, h) => {
 
   logger('info', ['classes', 'getClasses', 'got classes', selectedClasses.length, 'schoolId', schoolId, 'userId', userId])
 
-  let viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: selectedClasses, isAdmin: isAdmin })
+  const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: selectedClasses, isAdmin: isAdmin })
 
   return h.view('classes', viewOptions)
 }
