@@ -8,4 +8,4 @@ FROM mhart/alpine-node:base-10
 WORKDIR /usr/src
 COPY --from=base /usr/src .
 EXPOSE 8000
-CMD ["node", "src/server.js"]
+CMD ["node", "server.js"]
