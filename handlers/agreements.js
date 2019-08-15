@@ -238,22 +238,25 @@ module.exports.getAgreementDetails = async (request, h) => {
   const userData = unpack(request.params.userData)
   const samtykkeId = request.params.agreementID
   const { isImage, classId } = request.query
+  const isUnknown = id => id === 'unknown'
 
   logger('info', ['agreements', 'getAgreementDetails', 'userId', userId, 'samtykkeId', samtykkeId])
 
   let agreements = []
 
-  if (isImage) {
-    agreements = await getSamtykker({
-      userId: userId,
-      students: [{ userName: userData.username }]
-    })
-    agreements = agreements.filter(agreement => agreement.agreementId === samtykkeId)
-  } else {
-    agreements = await getAgreement({
-      userId: userId,
-      agreementId: samtykkeId
-    })
+  if (!isUnknown(samtykkeId)) {
+    if (isImage) {
+      agreements = await getSamtykker({
+        userId: userId,
+        students: [{ userName: userData.username }]
+      })
+      agreements = agreements.filter(agreement => agreement.agreementId === samtykkeId)
+    } else {
+      agreements = await getAgreement({
+        userId: userId,
+        agreementId: samtykkeId
+      })
+    }
   }
 
   const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: agreements, userData: userData, classID: classId })
