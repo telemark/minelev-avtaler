@@ -102,3 +102,11 @@ a > i.material-icons.text-warning {
     font-size: 100%;
     line-height: inherit;
 }
+
+div.information {
+    padding: 5px;
+    background-color: bisque;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: solid 1px gray;
+}
