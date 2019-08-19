@@ -66,7 +66,7 @@
     "simple-encryptor": "3.0.0",
     "tfk-json-to-xlsx": "2.0.0",
     "tfk-schools-info": "2.1.5",
-    "uuid": "3.3.2",
+    "uuid": "3.3.3",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5",
     "yar": "9.1.0"
