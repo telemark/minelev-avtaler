@@ -20,7 +20,7 @@ function fixMultipleSignatures (agreement) {
   if (agreement.signs && agreement.signs.length > 2) {
     // If any of parents have signed it is valid
     const parentSigns = agreement.signs.slice(1)
-    const joined = parentSigns.includes('signed') ? 'signed' : 'unknown'
+    const joined = parentSigns.includes('signed') ? 'signed' : parentSigns.includes('unsigned') ? 'unsigned' : 'unknown'
     result = getAgreementStatus({ signs: [agreement.signs[0], joined] })
   } else {
     result = getAgreementStatus(agreement)
