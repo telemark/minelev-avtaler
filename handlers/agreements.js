@@ -6,6 +6,8 @@ const os = require('os')
 const fs = require('fs')
 const getMyClasses = require('../lib/get-my-classes')
 const getStudents = require('../lib/get-students-in-class')
+const getIdentities = require('../lib/get-identities-for-students')
+const mergeIdentities = require('../lib/merge-identities')
 const getAgreements = require('../lib/get-agreements-for-students')
 const getSamtykker = require('../lib/get-samtykker-for-students')
 const getAgreement = require('../lib/get-agreement-details')
@@ -91,10 +93,17 @@ module.exports.downloadAgreements = async (request, h) => {
   logger('info', ['agreements', 'downloadAgreements', 'classId', classId, 'userId', userId])
 
   if (myClassIds.includes(classId)) {
-    const students = await getStudents({
+    let students = await getStudents({
       userId: userId,
       classId: classId
     })
+
+    const identities = await getIdentities({
+      userId: userId,
+      students: students
+    })
+
+    students = mergeIdentities(students, identities)
 
     students.sort(nameSort)
 
@@ -171,10 +180,17 @@ module.exports.getAgreements = async (request, h) => {
 
   if (myClassIds.includes(classId)) {
     logger('info', ['agreements', 'getAgreements', 'classId', classId, 'userId', userId, 'classId is valid'])
-    const students = await getStudents({
+    let students = await getStudents({
       userId: userId,
       classId: classId
     })
+
+    const identities = await getIdentities({
+      userId: userId,
+      students: students
+    })
+
+    students = mergeIdentities(students, identities)
 
     students.sort(nameSort)
 
@@ -217,7 +233,7 @@ module.exports.getAgreements = async (request, h) => {
       return prev
     }, {})
 
-    const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName }) }))
+    const repackedStudents = students.map(student => Object.assign({}, student, repackedAgreements[student.personalIdNumber], { details: pack({ name: student.fullName, username: student.userName, sam: student.sam }) }))
     const viewOptions = createViewOptions({ credentials: request.auth.credentials, mySchools: mySchools, myClasses: myClasses, isAdmin: isAdmin, agreements: repackedStudents, classID: classId })
 
     return h.view('agreements', viewOptions)
@@ -248,7 +264,7 @@ module.exports.getAgreementDetails = async (request, h) => {
     if (isImage) {
       agreements = await getSamtykker({
         userId: userId,
-        students: [{ userName: userData.username }]
+        students: userData.sam !== undefined ? [{ sam: userData.sam }] : []
       })
       agreements = agreements.filter(agreement => agreement.agreementId === samtykkeId)
     } else {
