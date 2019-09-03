@@ -59,7 +59,7 @@
     "birthdate-from-id": "2.0.0",
     "dotenv": "8.1.0",
     "get-age": "1.0.1",
-    "handlebars": "4.1.2",
+    "handlebars": "4.2.0",
     "hapi-auth-cookie": "10.0.0",
     "jcb64": "2.0.0",
     "jsonwebtoken": "8.5.1",
