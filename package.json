@@ -61,7 +61,7 @@
     "get-age": "1.0.1",
     "handlebars": "4.1.2",
     "hapi-auth-cookie": "10.0.0",
-    "jcb64": "2.0.0",
+    "jcb64": "2.0.1",
     "jsonwebtoken": "8.5.1",
     "simple-encryptor": "3.0.0",
     "tfk-json-to-xlsx": "2.0.0",
